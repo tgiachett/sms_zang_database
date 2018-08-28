@@ -48,6 +48,8 @@ router.post("/incoming", (req, res) => {
           }).then(result => {
             console.log(result)
             sms.sendSms(smsComObj.from, `Entry logged @ID = ${result.id}`);
+
+            
           })
           // send out the response text
           // sms.sendSms(smsComObj.from, `Entry Successfully logged with id ${thisId}`);
