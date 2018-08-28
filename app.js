@@ -29,9 +29,6 @@ wss.on('connection', function connection(ws) {
   ws.send('SomethingBackFromServer');
 });
 
-
-
-
 // setup body-parser
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
@@ -50,22 +47,7 @@ app.use("/api", api);
 app.use("/users", users);
 app.use("/zang", zang);
 
-var server = app.listen(process.env.PORT || 8080, function () {
-	var port = server.address().port;
-	console.log("App now running on port", port);
-});
 
-const WebSocket = require('ws');
- 
-const wss = new WebSocket.Server({ server });
- 
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message);
-  });
- 
-  ws.send('SomethingBackFromServer');
-});
 
 
 module.exports = app;
