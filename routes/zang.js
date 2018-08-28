@@ -17,6 +17,8 @@ router.post("/incoming", (req, res) => {
   // smsComObj.date = moment()
   
   const smsArr = msgInfo.Body.split(", ");
+  console.log(smsArr)
+  console.log(msgInfo.Body)
   console.log(smsArr[2])
   switch(smsArr[0].toLowerCase()) {
     case "post":
