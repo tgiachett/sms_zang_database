@@ -30,9 +30,9 @@ router.post("/incoming", (req, res) => {
         smsComObj.tbl = smsArr[2];
         smsComObj.comBody = smsArr[1];
         //if there's a password set for that table, store it
-        if(smsArr[3].toLowerCase()) {
-          smsComObj.tblPass = smsArr[3];
-        }
+        // if(smsArr[3].toLowerCase()) {
+        //   smsComObj.tblPass = smsArr[3];
+        // }
         console.log(smsComObj);
         
         models.Entry.create(
