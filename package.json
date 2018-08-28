@@ -8,11 +8,8 @@
     "nodemon": "nodemon --exec npm start",
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tgiachett/TextAPIary.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/tgiachett/TextAPIary.git",
+  "author": "tgiachett <31292513+tgiachett@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tgiachett/TextAPIary/issues"
@@ -28,6 +25,7 @@
     "mysql2": "^1.5.3",
     "pg": "^7.4.1",
     "sequelize": "^4.37.4",
+    "ws": "^6.0.0",
     "zang-node": "0.0.1"
   },
   "devDependencies": {
