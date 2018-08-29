@@ -22,6 +22,7 @@ models.sequelize.sync().then(function() {
   const WebSocket = require('ws');
   const wss = new WebSocket.Server({ server });
   wss.binaryType = 'arraybuffer'
+  
   wss.broadcast = function broadcast(data) {
     wss.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
@@ -34,7 +35,7 @@ models.sequelize.sync().then(function() {
     
     let broad = setInterval(function () {
       models.Entry.findAll({}).then((dbEntries) => {
-        wss.broadcast(dbEntries)
+        wss.broadcast(JSON.parse(dbEntries))
 
       });
         
