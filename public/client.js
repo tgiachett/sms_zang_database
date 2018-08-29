@@ -1,7 +1,6 @@
 ( () => {
 
 const ws = new WebSocket(`wss://${location.host}`);
-ws.binaryType = 'arraybuffer'
 const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`)
  
@@ -11,7 +10,16 @@ postTest.onclick = () => {
 }
 
 ws.onmessage = function(msg) {
-  console.log(msg)
+  
+    
+        let reader = new FileReader()
+        reader.onload( function() {
+          reader.readAsText(msg.data)
+          console.log(reader.readAsText(msg.data))
+        })
+            
+        
+  
 }
 
 
