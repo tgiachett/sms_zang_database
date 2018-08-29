@@ -1,6 +1,7 @@
 ( () => {
 
 const ws = new WebSocket(`wss://${location.host}`);
+ws.binaryType = 'arraybuffer'
 const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`)
  
