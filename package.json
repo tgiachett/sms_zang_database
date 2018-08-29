@@ -1,20 +1,20 @@
 {
   "name": "sms_zang_database",
   "version": "1.0.0",
-  "description": "main npm install package for TextAPIary",
+  "description": "main npm install package for sms_zang_database",
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/server",
     "nodemon": "nodemon --exec npm start",
     "test": "mocha"
   },
-  "repository": "git+https://github.com/tgiachett/TextAPIary.git",
+  "repository": "git+https://github.com/tgiachett/sms_zang_database.git",
   "author": "tgiachett <31292513+tgiachett@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tgiachett/TextAPIary/issues"
+    "url": "https://github.com/tgiachett/sms_zang_database/issues"
   },
-  "homepage": "https://github.com/tgiachett/TextAPIary#readme",
+  "homepage": "https://github.com/tgiachett/sms_zang_database#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
