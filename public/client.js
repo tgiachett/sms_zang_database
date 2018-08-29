@@ -13,8 +13,8 @@ ws.onmessage = function(msg) {
   
     
         let reader = new FileReader()
-        reader.readAsText(msg.data)
         console.log(reader.readAsText(msg.data))
+        
         
             
         
