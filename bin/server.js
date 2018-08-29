@@ -22,24 +22,45 @@ models.sequelize.sync().then(function() {
   const WebSocket = require('ws');
  
   const wss = new WebSocket.Server({ server });
-   
+  
+  wss.broadcast = function broadcast(data) {
+    wss.clients.forEach(function each(client) {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(data);
+      }
+    });
+  };
+  
   wss.on('connection', function connection(ws) {
+    
+    let broad = setInterval(function () {
+      models.Entry.findAll({}).then((dbEntries) => {
+        wss.broadcast(dbEntries)
+
+      });
+        
+      
+      
+      
+    }, 1000)
+    
     ws.on('message', function incoming(message) {
+      
       console.log('received: %s', message);
+      
+    
     });
    
-    ws.send('SomethingBackFromServer');
+    
   });
-  
-  
+  wss.broadcast('Broadcast Message')
+  // setInterval(wss.broadcast('Broadcast Message'), 1000)
   
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
   });
   server.on('error', onError);
   server.on('listening', onListening);
-
-  
 
 });
 
