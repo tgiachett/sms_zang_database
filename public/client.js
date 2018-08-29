@@ -1,6 +1,6 @@
 ( () => {
 
-const ws = new WebSocket(`ws://${location.host}`);
+const ws = new WebSocket(`wss://${location.host}`);
 const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`)
  
