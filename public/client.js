@@ -9,16 +9,16 @@ postTest.onclick = () => {
   ws.send('test')
 }
 
-ws.onmessage = function(msg) {
-  
-    
-        let reader = new FileReader()
-        console.log(reader.readAsText(msg.data))
-        
-        
-            
-        
-  
+ws.onmessage = async function (msg) {
+  var reader = new FileReader();
+
+reader.onload = function(e) {
+  var text = reader.result;
+}
+
+await reader.readAsText(msg.data, 'utf-8');
+console.log(text)
+
 }
 
 
