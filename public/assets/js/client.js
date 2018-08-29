@@ -1,17 +1,15 @@
 
  
-const ws = new WebSocket('ws://8080');
- 
-ws.on('open', function open() {
-  ws.send('something');
-});
- 
-ws.on('message', function incoming(data) {
-  console.log(data);
-});
+
 
 
 $(document).ready(function() {
+
+  const ws = new WebSocket(`ws://${location.port}`);
+ 
+ws.onopen = (event) => console.log(`Websocket connection is ${event}`)
+ 
+
 
   //TRIGGER DIARY TEXT MODAL
   $(".middle").click(function(event) {
