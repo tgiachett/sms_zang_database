@@ -12,12 +12,12 @@ postTest.onclick = () => {
 ws.onmessage = async function (msg) {
   var reader = new FileReader();
 
-reader.onload = function(e) {
+reader.onload = await function(e) {
   var text = reader.result;
 }
 
 await reader.readAsText(msg.data, 'utf-8');
-console.log(text)
+
 
 }
 
