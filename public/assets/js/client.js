@@ -5,9 +5,9 @@
 
 $(document).ready(function() {
 
-  const ws = new WebSocket(`ws://${location.port}`);
+  const ws = new WebSocket(`ws://${location.host}`);
  
-ws.onopen = (event) => console.log(`Websocket connection is ${event}`)
+ws.onopen = (event) => console.log(`Websocket connection is Open`)
  
 
 
