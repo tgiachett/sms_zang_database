@@ -1,18 +1,20 @@
-
- 
-
-
-
-
+( () => {
 
 const ws = new WebSocket(`ws://${location.host}`);
- 
+const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`)
  
+postTest.onclick = () => {
+  console.log("successful trigger");
+  ws.send('test')
+}
+
+ws.onmessage = function(msg) {
+  console.log(msg)
+}
 
 
-
-  //TRIGGER DIARY TEXT MODAL
+//TRIGGER DIARY TEXT MODAL
 //   $(".middle").click(function(event) {
 //   	$(this).attr("id", "click-hex");
 //     let popupText = $(this).text();
@@ -97,3 +99,5 @@ ws.onopen = (event) => console.log(`Websocket connection is Open`)
 
 // // MOCHA CHAI TEST EXPORTS
 // // module.exports = someVar
+
+})();
