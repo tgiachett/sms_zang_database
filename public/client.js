@@ -1,26 +1,32 @@
+'use strict';
+
 ( () => {
 
 const ws = new WebSocket(`wss://${location.host}`);
 const postTest = document.querySelector('#postTest');
-ws.onopen = (event) => console.log(`Websocket connection is Open`)
+ws.onopen = (event) => console.log(`Websocket connection is Open`);
  
 postTest.onclick = () => {
   console.log("successful trigger");
   ws.send('test')
-}
+};
 
 ws.onmessage = function (msg) {
-  var reader = new FileReader();
-
-reader.onload =  function(e) {
-  var text = reader.result;
-  console.log(text)
-}
-
-reader.readAsText(msg.data, 'utf-8');
 
 
-}
+msg = JSON.parse(msg)
+
+  //   var reader = new FileReader();
+
+// reader.onload =  function(e) {
+//   var text = reader.result;
+//   console.log(text)
+// }
+
+// reader.readAsText(msg.data, 'utf-8');
+
+
+};
 
 
 //TRIGGER DIARY TEXT MODAL
