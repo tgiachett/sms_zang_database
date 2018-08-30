@@ -12,16 +12,16 @@ router.get("/", (req, res) => {
       users: users
     });
   });
-wss.on('connection', function connection(ws) {
+// wss.on('connection', function connection(ws) {
     
-      models.Entry.findAll({}).then((dbEntries) => {
-        console.log(dbEntries)
-        wss.broadcast(JSON.stringify(dbEntries))
+//       models.Entry.findAll({}).then((dbEntries) => {
+//         console.log(dbEntries)
+//         wss.broadcast(JSON.stringify(dbEntries))
 
-      });
+//       });
 
     
-  });
+//   });
 });
 
 router.get("/surf", (req, res) => {
