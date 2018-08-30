@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
 
     
   });
-});
+
 
 router.get("/surf", (req, res) => {
   models.User.findAll({}).then((users) => {
