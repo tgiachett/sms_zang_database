@@ -8,7 +8,8 @@ const WebSocket = require('ws');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '8082');
+let wss;
+ var port = normalizePort(process.env.PORT || '8082');
 app.set('port', port);
   /**
    * Create HTTP server.
@@ -21,7 +22,7 @@ models.sequelize.sync().then(function() {
    */
   
   
-  const wss = new WebSocket.Server({ server });
+  wss = new WebSocket.Server({ server });
   
   wss.broadcast = function broadcast(data) {
     wss.clients.forEach(function each(client) {
@@ -40,10 +41,7 @@ models.sequelize.sync().then(function() {
       
     });
    
-    
   });
-  wss.broadcast('Broadcast Message')
-  // setInterval(wss.broadcast('Broadcast Message'), 1000)
   
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
