@@ -44,7 +44,7 @@ models.sequelize.sync().then(function() {
    
   });
   
-  exports.wss = {
+  exports.broadcast = {
     broadcast: function(data) {
       
       wss.broadcast(data)
@@ -122,6 +122,6 @@ function onListening() {
 
 //CHAI MOCHA TEST export
 module.exports = port;
-module.exports = wss
+
 
 
