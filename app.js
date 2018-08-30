@@ -1,8 +1,8 @@
 // dependencies 
 const express = require("express"),
 	bodyParser = require("body-parser"),
-	path = require("path");
-import broadcast from './bin/server.js'
+	path = require("path"),
+  wss = require('./bin/server')
 	
 	const app = express()
 	
@@ -28,7 +28,7 @@ app.use(express.static("./public"));
 
 app.use("/", function (req, res, next) {
   models.Entry.findAll({}).then((dbEntries) => {
-    broadcast(JSON.stringify(dbEntries))
+    Wss.broadcast(JSON.stringify(dbEntries))
     });
   next()
 }, routes);
