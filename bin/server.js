@@ -14,40 +14,7 @@ const router  = express.Router()
 
 
  var port = normalizePort(process.env.PORT || '8082');
- wss = new WebSocket.Server({ port: port });
-  
- wss.broadcast = function broadcast(data) {
-   wss.clients.forEach(function each(client) {
-     if (client.readyState === WebSocket.OPEN) {
-       client.send(data);
-     }
-   });
- };
  
- 
- wss.on('connection', function connection(ws) {
-   
-
-
-   router.get("/", (req, res) => {
-     models.Entry.findAll({}).then((dbEntries) => {
-        console.log(ws)
-       ws.broadcast(JSON.stringify(dbEntries))
-       });
-     
-     
-     });
-
-
-   
-   ws.on('message', function incoming(message) {
-     
-     console.log('received: %s', message);
-     
-   });
-  
- });
-
 
  app.set('port', port);
   /**
@@ -63,18 +30,10 @@ models.sequelize.sync().then(function() {
    * Listen on provided port, on all network interfaces.
    */
   
-  
-  
-  
-  exports.broadcast = {
-    broadcast: function(data) {
-      return wss.broadcast(data)
-    },
-  
-  }
-  
+
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
+    
   });
   server.on('error', onError);
   server.on('listening', onListening);

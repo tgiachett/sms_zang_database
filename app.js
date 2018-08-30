@@ -12,10 +12,8 @@ const express = require("express"),
 	zang = require("./routes/zang"),
 	api = require("./routes/api");
 	const models = require('./models');
-
-
-
-// setup body-parser
+const wss = require('./websocket');
+	// setup body-parser
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
@@ -36,9 +34,5 @@ app.use("/", routes);
 app.use("/api", api);
 app.use("/users", users);
 app.use("/zang", zang);
-
- 
-
-
 
 module.exports = app;
