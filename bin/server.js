@@ -2,7 +2,7 @@ var app = require('../app');
 var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
-
+bodyParser = require("body-parser")
 /**
  * Get port from environment and store in Express.
  */
@@ -35,8 +35,8 @@ models.sequelize.sync().then(function() {
     
     let broad = setInterval(function () {
       models.Entry.findAll({}).then((dbEntries) => {
-        console.log(dbEntries)
-        wss.broadcast(dbEntries.dataValues)
+        console.log(bodyParser.json(dbEntries))
+        wss.broadcast(bodyParser.json(dbEntries))
 
       });
         
