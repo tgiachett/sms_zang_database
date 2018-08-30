@@ -3,7 +3,7 @@ const models  = require("../models");
 const express = require("express");
 const router  = express.Router();
 const sms = require('../controller/sms.js');
-const WebSocket = require('ws')
+const wss = require('../bin/server')
 
 router.get("/", (req, res) => {
   models.User.findAll({}).then((users) => {
@@ -12,16 +12,16 @@ router.get("/", (req, res) => {
       users: users
     });
   });
-// wss.on('connection', function connection(ws) {
-    
-//       models.Entry.findAll({}).then((dbEntries) => {
-//         console.log(dbEntries)
-//         wss.broadcast(JSON.stringify(dbEntries))
-
-//       });
 
     
-//   });
+      models.Entry.findAll({}).then((dbEntries) => {
+        console.log(dbEntries)
+        wss.broadcast(JSON.stringify(dbEntries))
+
+      });
+
+    
+  });
 });
 
 router.get("/surf", (req, res) => {
