@@ -35,8 +35,8 @@ models.sequelize.sync().then(function() {
     
     let broad = setInterval(function () {
       models.Entry.findAll({}).then((dbEntries) => {
-        console.log(JSON.parse(dbEntries))
-        wss.broadcast(JSON.parse(dbEntries))
+        console.log(dbEntries.dataValues)
+        wss.broadcast(dbEntries.dataValues)
 
       });
         
