@@ -28,7 +28,7 @@ app.use(express.static("./public"));
 
 app.use("/", function (req, res, next) {
   models.Entry.findAll({}).then((dbEntries) => {
-    Wss.broadcast(JSON.stringify(dbEntries))
+    wss.broadcast(JSON.stringify(dbEntries))
     });
   next()
 }, routes);
