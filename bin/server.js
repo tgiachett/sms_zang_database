@@ -33,23 +33,11 @@ models.sequelize.sync().then(function() {
   
   wss.on('connection', function connection(ws) {
     
-    let broad = setInterval(function () {
-      models.Entry.findAll({}).then((dbEntries) => {
-        console.log(dbEntries)
-        wss.broadcast(JSON.stringify(dbEntries))
-
-      });
-        
-      
-      
-      
-    }, 3000)
     
     ws.on('message', function incoming(message) {
       
       console.log('received: %s', message);
       
-    
     });
    
     
