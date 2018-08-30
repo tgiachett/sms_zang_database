@@ -14,16 +14,16 @@ postTest.onclick = () => {
 ws.onmessage = function (msg) {
 
 
-msg = JSON.parse(msg)
 
-  //   var reader = new FileReader();
 
-// reader.onload =  function(e) {
-//   var text = reader.result;
-//   console.log(text)
-// }
+    var reader = new FileReader();
 
-// reader.readAsText(msg.data, 'utf-8');
+reader.onload =  function(e) {
+  var text = reader.result;
+  console.log(text)
+}
+
+reader.readAsText(msg, 'utf-8');
 
 
 };
