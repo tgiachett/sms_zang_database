@@ -3,6 +3,7 @@ var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
+const WebSocket = require('ws');
 /**
  * Get port from environment and store in Express.
  */
@@ -19,7 +20,7 @@ models.sequelize.sync().then(function() {
    * Listen on provided port, on all network interfaces.
    */
   
-  const WebSocket = require('ws');
+  
   const wss = new WebSocket.Server({ server });
   
   wss.broadcast = function broadcast(data) {
