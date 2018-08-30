@@ -16,6 +16,7 @@ router.get("/", (req, res) => {
 
 
 router.get("/surf", (req, res) => {
+  res.send(res);
   models.Entry.findAll({}).then((dbEntries) => {
     wss.broadcast(JSON.stringify(dbEntries))
     });
