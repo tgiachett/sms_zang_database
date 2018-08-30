@@ -7,7 +7,8 @@ const wss = require('../bin/server.js')
 
 router.get("/", (req, res) => {
   models.Entry.findAll({}).then((dbEntries) => {
-     wss.broadcast(JSON.stringify(dbEntries))
+     console.log(wss)
+    wss.broadcast(JSON.stringify(dbEntries))
     });
   
   
