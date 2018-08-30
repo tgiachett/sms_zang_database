@@ -10,13 +10,18 @@ const router  = express.Router()
  * Get port from environment and store in Express.
  */
 
-let wss;
+
+
+
  var port = normalizePort(process.env.PORT || '8082');
 app.set('port', port);
   /**
    * Create HTTP server.
    */
-var server = http.createServer(app);
+
+
+
+   var server = http.createServer(app);
 
 models.sequelize.sync().then(function() {
   /**
