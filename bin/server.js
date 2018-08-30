@@ -32,6 +32,7 @@ models.sequelize.sync().then(function() {
     });
   };
   
+  
   wss.on('connection', function connection(ws) {
     
     
@@ -42,6 +43,13 @@ models.sequelize.sync().then(function() {
     });
    
   });
+  
+  exports.wss = {
+    broadcast: function(data) {
+      this.broadcast(data)
+    },
+  
+  }
   
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
