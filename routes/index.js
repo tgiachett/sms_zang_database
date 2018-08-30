@@ -15,15 +15,12 @@ router.get("/", (req, res) => {
   });
 
 
-
 router.get("/surf", (req, res) => {
-  models.User.findAll({}).then((users) => {
-    res.render("index", {
-      title: "placeholder",
-      users: users
+  models.Entry.findAll({}).then((dbEntries) => {
+    wss.broadcast(JSON.stringify(dbEntries))
     });
   });
-});
+
 
 router.get("/about", (req, res) => {
   models.User.findAll({}).then((users) => {

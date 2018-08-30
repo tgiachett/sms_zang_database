@@ -37,6 +37,7 @@ models.sequelize.sync().then(function() {
   
   wss.on('connection', function connection(ws) {
     
+    
 
     router.get("/", (req, res) => {
       models.Entry.findAll({}).then((dbEntries) => {
