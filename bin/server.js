@@ -114,4 +114,7 @@ function onListening() {
 }
 
 //CHAI MOCHA TEST export
-module.exports = port, wss;
+module.exports = port;
+module.exports = wss
+
+
