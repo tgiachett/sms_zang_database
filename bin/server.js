@@ -37,7 +37,7 @@ models.sequelize.sync().then(function() {
   
   wss.on('connection', function connection(ws) {
     
-    
+
 
     router.get("/", (req, res) => {
       models.Entry.findAll({}).then((dbEntries) => {
@@ -58,12 +58,12 @@ models.sequelize.sync().then(function() {
    
   });
   
-  // exports.broadcast = {
-  //   broadcast: function(data) {
-  //     return wss.broadcast(data)
-  //   },
+  exports.broadcast = {
+    broadcast: function(data) {
+      return wss.broadcast(data)
+    },
   
-  // }
+  }
   
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
