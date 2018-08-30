@@ -21,7 +21,7 @@ models.sequelize.sync().then(function() {
   
   const WebSocket = require('ws');
   const wss = new WebSocket.Server({ server });
-  
+  wss.binaryType = 
   
   wss.broadcast = function broadcast(data) {
     wss.clients.forEach(function each(client) {

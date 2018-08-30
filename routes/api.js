@@ -5,7 +5,7 @@ const router  = express.Router();
 
 router.get("/all", (req, res) => {
   models.Entry.findAll({}).then((dbEntries) => {
-    res.json(dbEntries);
+		res.json(dbEntries);
   });
 });
 
