@@ -13,8 +13,8 @@ postTest.onclick = () => {
 
 ws.onmessage = function (msg) {
 
-
-console.log(msg)
+JSON.parse(msg.data)
+console.log(JSON.parse(msg.data))
 
 //     var reader = new FileReader();
 
