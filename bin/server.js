@@ -14,7 +14,42 @@ const router  = express.Router()
 
 
  var port = normalizePort(process.env.PORT || '8082');
-app.set('port', port);
+ wss = new WebSocket.Server({ port: port });
+  
+ wss.broadcast = function broadcast(data) {
+   wss.clients.forEach(function each(client) {
+     if (client.readyState === WebSocket.OPEN) {
+       client.send(data);
+     }
+   });
+ };
+ 
+ 
+ wss.on('connection', function connection(ws) {
+   
+
+
+   router.get("/", (req, res) => {
+     models.Entry.findAll({}).then((dbEntries) => {
+        console.log(ws)
+       ws.broadcast(JSON.stringify(dbEntries))
+       });
+     
+     
+     });
+
+
+   
+   ws.on('message', function incoming(message) {
+     
+     console.log('received: %s', message);
+     
+   });
+  
+ });
+
+
+ app.set('port', port);
   /**
    * Create HTTP server.
    */
@@ -29,39 +64,7 @@ models.sequelize.sync().then(function() {
    */
   
   
-  wss = new WebSocket.Server({ server });
   
-  wss.broadcast = function broadcast(data) {
-    wss.clients.forEach(function each(client) {
-      if (client.readyState === WebSocket.OPEN) {
-        client.send(data);
-      }
-    });
-  };
-  
-  
-  wss.on('connection', function connection(ws) {
-    
-
-
-    router.get("/", (req, res) => {
-      models.Entry.findAll({}).then((dbEntries) => {
-         console.log(ws)
-        ws.broadcast(JSON.stringify(dbEntries))
-        });
-      
-      
-      });
-
-
-    
-    ws.on('message', function incoming(message) {
-      
-      console.log('received: %s', message);
-      
-    });
-   
-  });
   
   exports.broadcast = {
     broadcast: function(data) {
