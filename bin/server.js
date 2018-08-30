@@ -46,7 +46,8 @@ models.sequelize.sync().then(function() {
   
   exports.wss = {
     broadcast: function(data) {
-      this.broadcast(data)
+      
+      wss.broadcast(data)
     },
   
   }
