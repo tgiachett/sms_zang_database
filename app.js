@@ -1,7 +1,6 @@
 // dependencies 
 const express = require("express"),
 	bodyParser = require("body-parser"),
-	exphbs = require("express-handlebars"),
 	path = require("path");
 	
 	const app = express()

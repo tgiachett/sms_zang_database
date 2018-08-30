@@ -4,6 +4,7 @@ var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
 const WebSocket = require('ws');
+const router  = express.Router()
 /**
  * Get port from environment and store in Express.
  */
@@ -35,6 +36,17 @@ models.sequelize.sync().then(function() {
   
   wss.on('connection', function connection(ws) {
     
+
+    router.get("/", (req, res) => {
+      models.Entry.findAll({}).then((dbEntries) => {
+         console.log(ws)
+        ws.broadcast(JSON.stringify(dbEntries))
+        });
+      
+      
+      });
+
+
     
     ws.on('message', function incoming(message) {
       
@@ -44,12 +56,12 @@ models.sequelize.sync().then(function() {
    
   });
   
-  exports.broadcast = {
-    broadcast: function(data) {
-      return wss.broadcast(data)
-    },
+  // exports.broadcast = {
+  //   broadcast: function(data) {
+  //     return wss.broadcast(data)
+  //   },
   
-  }
+  // }
   
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
@@ -58,6 +70,9 @@ models.sequelize.sync().then(function() {
   server.on('listening', onListening);
 
 });
+
+
+
 
 /**
  * Normalize a port into a number, string, or false.

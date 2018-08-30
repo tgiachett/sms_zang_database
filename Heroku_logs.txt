@@ -1,0 +1,1500 @@
+2018-08-30T20:00:59.699746+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:00:59.699747+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699750+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699754+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:00:59.699758+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:00:59.699762+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:00:59.699761+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:00:59.699756+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699759+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:00:59.699764+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:00:59.627754+00:00 app[web.1]:        schema: null,
+2018-08-30T20:00:59.627776+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:00:59.699765+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:00:59.699768+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699767+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699770+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.699775+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:00:59.699776+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:00:59.699777+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:00:59.699773+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699771+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:00:59.699779+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:00:59.699781+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:00:59.699782+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:00:59.699785+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:00:59.699783+00:00 app[web.1]:        validate: {},
+2018-08-30T20:00:59.699786+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:00:59.699788+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:00:59.699789+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:00:59.699791+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:00:59.699792+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:00:59.699795+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:00:59.699794+00:00 app[web.1]:        schema: null,
+2018-08-30T20:00:59.699797+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:00:59.699799+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:00:59.699800+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:00:59.699802+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:00:59.699803+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:00:59.699805+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:00:59.699806+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:00:59.699809+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:00:59.699808+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:00:59.699811+00:00 app[web.1]:     _options: 
+2018-08-30T20:00:59.699813+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:00:59.699819+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:00:59.699821+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:00:59.699823+00:00 app[web.1]:        raw: true,
+2018-08-30T20:00:59.699825+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:00:59.699826+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:00:59.699828+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:00:59.699831+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:00:59.699829+00:00 app[web.1]:   Entry {
+2018-08-30T20:00:59.699832+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:00:59.699834+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:00:59.699836+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699837+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699839+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.699841+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:00:59.699842+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699844+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:00:59.699845+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:00:59.699847+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:00:59.699848+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:00:59.699850+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:00:59.699856+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:00:59.699857+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699859+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699861+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.699862+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:00:59.699864+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699867+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:00:59.699866+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:00:59.699869+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:00:59.699870+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:00:59.699872+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:00:59.699873+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:00:59.699876+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:00:59.699875+00:00 app[web.1]:        validate: {},
+2018-08-30T20:00:59.699878+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:00:59.699879+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:00:59.699881+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:00:59.699882+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:00:59.699884+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:00:59.699885+00:00 app[web.1]:        schema: null,
+2018-08-30T20:00:59.699887+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:00:59.699888+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:00:59.699890+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:00:59.699891+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:00:59.699893+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:00:59.699894+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:00:59.699896+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:00:59.699897+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:00:59.699910+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:00:59.699914+00:00 app[web.1]:     _options: 
+2018-08-30T20:00:59.699912+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:00:59.699915+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:00:59.699917+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:00:59.699918+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:00:59.699920+00:00 app[web.1]:        raw: true,
+2018-08-30T20:00:59.699921+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:00:59.699923+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:00:59.699924+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:00:59.699926+00:00 app[web.1]:   Entry {
+2018-08-30T20:00:59.699928+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:00:59.699929+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:00:59.699931+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:00:59.699932+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699934+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699935+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.699937+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:00:59.699939+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699941+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:00:59.699943+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:00:59.699944+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:00:59.699946+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:00:59.699947+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:00:59.699949+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:00:59.699950+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.699952+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.699953+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.699955+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:00:59.699956+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.699958+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:00:59.699960+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:00:59.699961+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:00:59.699963+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:00:59.699965+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:00:59.699966+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:00:59.699968+00:00 app[web.1]:        validate: {},
+2018-08-30T20:00:59.699969+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:00:59.699970+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:00:59.699972+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:00:59.699974+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:00:59.699975+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:00:59.699977+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:00:59.699978+00:00 app[web.1]:        schema: null,
+2018-08-30T20:00:59.699980+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:00:59.699981+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:00:59.699983+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:00:59.699984+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:00:59.699986+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:00:59.699987+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:00:59.699989+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:00:59.699990+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:00:59.699992+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:00:59.699993+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:00:59.699995+00:00 app[web.1]:     _options: 
+2018-08-30T20:00:59.699997+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:00:59.700005+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:00:59.700007+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:00:59.700013+00:00 app[web.1]:        raw: true,
+2018-08-30T20:00:59.700015+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:00:59.700016+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:00:59.700018+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:00:59.700020+00:00 app[web.1]:   Entry {
+2018-08-30T20:00:59.700021+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:00:59.700023+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:00:59.700024+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:00:59.700026+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.700027+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.700029+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.700031+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:00:59.700032+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.700034+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:00:59.700035+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:00:59.700037+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:00:59.700039+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:00:59.700040+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:00:59.700042+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:00:59.700043+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:00:59.700045+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:00:59.700047+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:00:59.700050+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:00:59.700048+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:00:59.700052+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:00:59.700053+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:00:59.700055+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:00:59.700056+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:00:59.700058+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:00:59.700060+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:00:59.700061+00:00 app[web.1]:        validate: {},
+2018-08-30T20:00:59.700063+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:00:59.700064+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:00:59.700066+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:00:59.700067+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:00:59.700069+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:00:59.700070+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:00:59.700072+00:00 app[web.1]:        schema: null,
+2018-08-30T20:00:59.700073+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:00:59.700075+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:00:59.700077+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:00:59.700078+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:00:59.700082+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:00:59.700080+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:00:59.700083+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:00:59.700085+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:00:59.700086+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:00:59.700088+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:00:59.700089+00:00 app[web.1]:     _options: 
+2018-08-30T20:00:59.700091+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:00:59.700092+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:00:59.700094+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:00:59.700095+00:00 app[web.1]:        raw: true,
+2018-08-30T20:00:59.700097+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:00:59.700099+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:00:59.700100+00:00 app[web.1]:     isNewRecord: false } ]
+2018-08-30T20:01:02.577142+00:00 app[web.1]: Executing (default): SELECT "id", "comBody", "category", "tbl", "tblPass", "SmsSid", "from", "wholeBody", "createdAt", "updatedAt" FROM "Entries" AS "Entry";
+2018-08-30T20:01:02.585061+00:00 app[web.1]: [ Entry {
+2018-08-30T20:01:02.585066+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.585067+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:02.585069+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:02.585071+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585072+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585079+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:02.585074+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585081+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585085+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:02.585087+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:02.585090+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:02.585084+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:02.585088+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.585093+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585091+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:02.585094+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585096+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585098+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:02.585099+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585100+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:02.585102+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:02.585104+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:02.585106+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.585105+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.585108+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.585109+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.585111+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.585112+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.585114+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.585116+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.585117+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.585119+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.585120+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.585122+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.585123+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.585125+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.585128+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.585130+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.585127+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.585131+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.585133+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.585135+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.585136+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.585138+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.585141+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.585140+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.585143+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.585144+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.585146+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.585148+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.585149+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.585152+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.585151+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.585154+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:02.585155+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:02.585157+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585159+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585160+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585164+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585165+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:02.585162+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:02.585171+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:02.585173+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:02.585175+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.585177+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:02.585178+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:02.585180+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585181+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585183+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585186+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585184+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:02.585188+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:02.585189+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:02.585191+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:02.585192+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.585194+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.585195+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.585197+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.585199+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.585200+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.585202+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.585205+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.585204+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.585207+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.585211+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.585209+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.585212+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.585215+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.585217+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.585214+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.585218+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.585222+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.585220+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.585223+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.585225+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.585228+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.585226+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.585229+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.585233+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.585230+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.585235+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.585232+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.585237+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.585238+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.585240+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.585241+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:02.585243+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:02.585244+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585246+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585247+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585248+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:02.585250+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585252+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:02.585254+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:02.585255+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:02.585256+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.585258+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:02.585260+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:02.585263+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585265+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585261+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585266+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:02.585268+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585269+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:02.585271+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:02.585272+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:02.585274+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.585275+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.585276+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.585278+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.585280+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.585281+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.585283+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.585284+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.585286+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.585287+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.585289+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.585290+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.585294+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.585292+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.585295+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.585298+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.585300+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.585297+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.585301+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.585303+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.585305+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.585306+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.585308+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.585319+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.585321+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.585322+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.585324+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.585325+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.585327+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.585328+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.585330+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.585331+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:02.585333+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:02.585334+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585336+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585337+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585339+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:02.585340+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585342+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:02.585343+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:02.585345+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:02.585346+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.585348+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:02.585350+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:02.585351+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.585353+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.585355+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.585356+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:02.585358+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.585359+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:02.585361+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:02.585362+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:02.585364+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.585366+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.585367+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.585369+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.585370+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.585372+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.585373+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.585375+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.585376+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.585378+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.585380+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.585381+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.585383+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.585385+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.585386+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.585388+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.585389+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.585391+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.585392+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.585394+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.585395+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.585397+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.585399+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.585400+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.585402+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.585404+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.585405+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.585407+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.585409+00:00 app[web.1]:     isNewRecord: false } ]
+2018-08-30T20:01:02.695296+00:00 app[web.1]: Executing (default): SELECT "id", "comBody", "category", "tbl", "tblPass", "SmsSid", "from", "wholeBody", "createdAt", "updatedAt" FROM "Entries" AS "Entry";
+2018-08-30T20:01:02.698247+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.698244+00:00 app[web.1]: [ Entry {
+2018-08-30T20:01:02.698248+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:02.698249+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:02.698250+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698252+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698253+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698255+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:02.698256+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698258+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:02.698259+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:02.698261+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.698260+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:02.698262+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:02.698264+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698263+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:02.698265+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698267+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698268+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:02.698269+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698270+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:02.698271+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:02.698272+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:02.698273+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.698274+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.698275+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.698277+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.698278+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.698279+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.698280+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.698285+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.698286+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.698287+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.698288+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.698289+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.698290+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.698291+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.698292+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.698294+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.698295+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.698297+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.698298+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.698300+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.698301+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.698303+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.698304+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.698306+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.698307+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.698311+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.698309+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.698312+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.698315+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.698314+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.698317+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.698318+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:02.698320+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:02.698326+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698330+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698328+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698331+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:02.698333+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698334+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:02.698335+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:02.698338+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.698337+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:02.698340+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:02.698341+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:02.698342+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698344+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698345+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698346+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:02.698347+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698348+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:02.698350+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:02.698351+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:02.698352+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.698353+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.698354+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.698356+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.698355+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.698357+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.698358+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.698359+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.698361+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.698362+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.698363+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.698364+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.698365+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.698366+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.698367+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.698368+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.698369+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.698370+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.698371+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.698372+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.698373+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.698374+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.698376+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.698377+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.698378+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.698379+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.698380+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.698381+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.698382+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.698383+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.698384+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.698385+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:02.698386+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:02.698387+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698388+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698389+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698391+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:02.698392+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698393+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:02.698395+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:02.698394+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:02.698396+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.698397+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:02.698398+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:02.698399+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698401+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698403+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:02.698400+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698405+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:02.698404+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698406+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:02.698407+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:02.698409+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.698410+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.698408+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.698412+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.698411+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.698413+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.698414+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.698416+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.698417+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.698418+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.698419+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.698420+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.698421+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.698422+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.698423+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.698424+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.698426+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.698427+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.698428+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.698429+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.698430+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.698431+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.698438+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.698432+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.698439+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.698440+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.698441+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.698443+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.698444+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:02.698445+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:02.698446+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:02.698447+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:02.698448+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:02.698449+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698450+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698451+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698452+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:02.698453+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698455+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:02.698456+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:02.698457+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:02.698458+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:02.698459+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:02.698460+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:02.698461+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:02.698463+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:02.698464+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:02.698465+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:02.698466+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:02.698467+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:02.698468+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:02.698469+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:02.698470+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:02.698471+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:02.698472+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:02.698473+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:02.698475+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:02.698476+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:02.698478+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:02.698479+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:02.698480+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:02.698482+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:02.698484+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:02.698485+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:02.698487+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:02.698490+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:02.698488+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:02.698491+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:02.698493+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:02.698494+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:02.698496+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:02.698497+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:02.698499+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:02.698501+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:02.698503+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:02.698504+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:02.698509+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:02.698506+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:02.698507+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:02.698510+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:02.698512+00:00 app[web.1]:     isNewRecord: false } ]
+2018-08-30T20:01:05.580050+00:00 app[web.1]: Executing (default): SELECT "id", "comBody", "category", "tbl", "tblPass", "SmsSid", "from", "wholeBody", "createdAt", "updatedAt" FROM "Entries" AS "Entry";
+2018-08-30T20:01:05.582485+00:00 app[web.1]: [ Entry {
+2018-08-30T20:01:05.582489+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.582491+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:05.582492+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:05.582494+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582495+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582497+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582499+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:05.582501+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582502+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:05.582504+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:05.582506+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:05.582507+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.582509+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:05.582510+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:05.582512+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582513+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582515+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582517+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:05.582518+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582520+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:05.582521+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:05.582523+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:05.582524+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.582526+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.582527+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.582529+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.582530+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.582532+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.582534+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.582535+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.582537+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.582538+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.582540+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.582541+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.582543+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.582544+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.582547+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.582546+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.582549+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.582550+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.582552+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.582553+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.582555+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.582556+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.582558+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.582559+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.582561+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.582563+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.582564+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.582566+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.582568+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.582569+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.582571+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.582572+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:05.582574+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:05.582575+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582577+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582578+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582580+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:05.582582+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582583+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:05.582585+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:05.582587+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:05.582588+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.582590+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:05.582592+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:05.582594+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582596+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582597+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582599+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:05.582601+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582602+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:05.582604+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:05.582606+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:05.582607+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.582609+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.582610+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.582612+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.582614+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.582615+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.582617+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.582618+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.582620+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.582622+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.582624+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.582629+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.582632+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.582630+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.582633+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.582635+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.582636+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.582638+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.582639+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.582641+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.582642+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.582644+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.582647+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.582646+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.582649+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.582650+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.582652+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.582653+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.582655+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.582656+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.582658+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.582659+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:05.582661+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:05.582663+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582664+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582666+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582667+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:05.582669+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582671+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:05.582672+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:05.582674+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:05.582675+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.582677+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:05.582679+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:05.582680+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582720+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582722+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582724+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:05.582726+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582727+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:05.582729+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:05.582731+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:05.582732+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.582734+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.582735+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.582737+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.582738+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.582740+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.582742+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.582743+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.582745+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.582746+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.582748+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.582749+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.582751+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.582753+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.582754+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.582756+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.582758+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.582759+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.582761+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.582764+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.582762+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.582766+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.582767+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.582777+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.582779+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.582780+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.582782+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.582784+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.582785+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.582787+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.582788+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.582790+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:05.582791+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:05.582793+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582795+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582797+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582798+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:05.582800+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582802+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:05.582803+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:05.582805+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:05.582806+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.582808+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:05.582810+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:05.582811+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.582813+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.582816+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:05.582815+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.582818+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.582819+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:05.582821+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:05.582823+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:05.582824+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.582826+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.582827+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.582829+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.582830+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.582832+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.582833+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.582835+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.582837+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.582838+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.582840+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.582841+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.582843+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.582844+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.582846+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.582847+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.582848+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.582850+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.582852+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.582853+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.582855+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.582856+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.582858+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.582859+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.582861+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.582862+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.582864+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.582865+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.582867+00:00 app[web.1]:     isNewRecord: false } ]
+2018-08-30T20:01:05.695755+00:00 app[web.1]: Executing (default): SELECT "id", "comBody", "category", "tbl", "tblPass", "SmsSid", "from", "wholeBody", "createdAt", "updatedAt" FROM "Entries" AS "Entry";
+2018-08-30T20:01:05.698889+00:00 app[web.1]: [ Entry {
+2018-08-30T20:01:05.698892+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.698893+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:05.698894+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:05.698896+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.698897+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.698898+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.698900+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:05.698901+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.698902+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:05.698903+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:05.698904+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:05.698906+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.698907+00:00 app[web.1]:      { id: 1,
+2018-08-30T20:01:05.698908+00:00 app[web.1]:        comBody: '"aug28"',
+2018-08-30T20:01:05.698909+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.698910+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.698911+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.698912+00:00 app[web.1]:        SmsSid: 'SMf674eb320498076113ca4ac1ae10c5fe',
+2018-08-30T20:01:05.698913+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.698914+00:00 app[web.1]:        wholeBody: 'Post, "aug28"',
+2018-08-30T20:01:05.698916+00:00 app[web.1]:        createdAt: 2018-08-28T22:54:45.285Z,
+2018-08-30T20:01:05.698917+00:00 app[web.1]:        updatedAt: 2018-08-28T22:54:45.285Z },
+2018-08-30T20:01:05.698918+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.698920+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.698919+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.698921+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.698922+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.698923+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.698924+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.698925+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.698926+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.698927+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.698928+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.698929+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.698931+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.698932+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.698933+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.698934+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.698935+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.698937+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.698939+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.698940+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.698942+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.698943+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.698945+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.698947+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.698948+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.698950+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.698951+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.698953+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.698954+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.698956+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.698958+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.698959+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:05.698966+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:05.698967+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.698969+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.698971+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.698973+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:05.698974+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.698976+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:05.698977+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:05.698979+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:05.698980+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.698982+00:00 app[web.1]:      { id: 2,
+2018-08-30T20:01:05.698983+00:00 app[web.1]:        comBody: '"aug28 test 2"',
+2018-08-30T20:01:05.698985+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.698986+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.698988+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.698990+00:00 app[web.1]:        SmsSid: 'SMf674eb321ebf278a3a52437a84c7d72b',
+2018-08-30T20:01:05.698991+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.698993+00:00 app[web.1]:        wholeBody: 'Post, "aug28 test 2"',
+2018-08-30T20:01:05.698994+00:00 app[web.1]:        createdAt: 2018-08-29T00:16:38.821Z,
+2018-08-30T20:01:05.698996+00:00 app[web.1]:        updatedAt: 2018-08-29T00:16:38.821Z },
+2018-08-30T20:01:05.698998+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.698999+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.699001+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.699002+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.699004+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.699005+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.699007+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.699008+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.699010+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.699011+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.699013+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.699014+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.699016+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.699017+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.699019+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.699020+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.699022+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.699023+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.699025+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.699026+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.699028+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.699029+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.699031+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.699032+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.699034+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.699035+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.699038+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.699037+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.699040+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.699041+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.699043+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.699044+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:05.699046+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:05.699047+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.699049+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.699050+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.699052+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:05.699054+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.699055+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:05.699057+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:05.699059+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:05.699060+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.699061+00:00 app[web.1]:      { id: 3,
+2018-08-30T20:01:05.699063+00:00 app[web.1]:        comBody: '"Aug 29"',
+2018-08-30T20:01:05.699064+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.699066+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.699067+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.699069+00:00 app[web.1]:        SmsSid: 'SMf674eb32aabe8688a25a493abe3d18e9',
+2018-08-30T20:01:05.699070+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.699072+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29"',
+2018-08-30T20:01:05.699073+00:00 app[web.1]:        createdAt: 2018-08-29T21:07:11.543Z,
+2018-08-30T20:01:05.699075+00:00 app[web.1]:        updatedAt: 2018-08-29T21:07:11.543Z },
+2018-08-30T20:01:05.699077+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.699078+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.699081+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.699080+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.699083+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.699085+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.699086+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.699088+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.699089+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.699091+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.699096+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.699098+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.699099+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.699103+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.699101+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.699104+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.699106+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.699108+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.699109+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.699111+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.699112+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.699114+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.699116+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.699125+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.699127+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.699129+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.699130+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.699132+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:05.699133+00:00 app[web.1]:     isNewRecord: false },
+2018-08-30T20:01:05.699135+00:00 app[web.1]:   Entry {
+2018-08-30T20:01:05.699137+00:00 app[web.1]:     dataValues: 
+2018-08-30T20:01:05.699139+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:05.699140+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:05.699142+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.699144+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.699145+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.699147+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:05.699149+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.699151+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:05.699152+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:05.699155+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:05.699156+00:00 app[web.1]:     _previousDataValues: 
+2018-08-30T20:01:05.699158+00:00 app[web.1]:      { id: 4,
+2018-08-30T20:01:05.699159+00:00 app[web.1]:        comBody: '"Aug 29 2"',
+2018-08-30T20:01:05.699161+00:00 app[web.1]:        category: 'Public',
+2018-08-30T20:01:05.699163+00:00 app[web.1]:        tbl: null,
+2018-08-30T20:01:05.699164+00:00 app[web.1]:        tblPass: null,
+2018-08-30T20:01:05.699166+00:00 app[web.1]:        SmsSid: 'SMf674eb32b53e238b5cab4afb83647580',
+2018-08-30T20:01:05.699167+00:00 app[web.1]:        from: '+19193574249',
+2018-08-30T20:01:05.699169+00:00 app[web.1]:        wholeBody: 'Post, "Aug 29 2"',
+2018-08-30T20:01:05.699170+00:00 app[web.1]:        createdAt: 2018-08-29T21:12:02.689Z,
+2018-08-30T20:01:05.699172+00:00 app[web.1]:        updatedAt: 2018-08-29T21:12:02.689Z },
+2018-08-30T20:01:05.699174+00:00 app[web.1]:     _changed: {},
+2018-08-30T20:01:05.699175+00:00 app[web.1]:     _modelOptions: 
+2018-08-30T20:01:05.699178+00:00 app[web.1]:        validate: {},
+2018-08-30T20:01:05.699177+00:00 app[web.1]:      { timestamps: true,
+2018-08-30T20:01:05.699180+00:00 app[web.1]:        freezeTableName: false,
+2018-08-30T20:01:05.699181+00:00 app[web.1]:        underscored: false,
+2018-08-30T20:01:05.699183+00:00 app[web.1]:        underscoredAll: false,
+2018-08-30T20:01:05.699184+00:00 app[web.1]:        paranoid: false,
+2018-08-30T20:01:05.699186+00:00 app[web.1]:        rejectOnEmpty: false,
+2018-08-30T20:01:05.699187+00:00 app[web.1]:        whereCollection: null,
+2018-08-30T20:01:05.699189+00:00 app[web.1]:        schema: null,
+2018-08-30T20:01:05.699190+00:00 app[web.1]:        schemaDelimiter: '',
+2018-08-30T20:01:05.699192+00:00 app[web.1]:        defaultScope: {},
+2018-08-30T20:01:05.699194+00:00 app[web.1]:        scopes: [],
+2018-08-30T20:01:05.699195+00:00 app[web.1]:        indexes: [],
+2018-08-30T20:01:05.699197+00:00 app[web.1]:        name: [Object],
+2018-08-30T20:01:05.699198+00:00 app[web.1]:        omitNull: false,
+2018-08-30T20:01:05.699200+00:00 app[web.1]:        classMethods: [Object],
+2018-08-30T20:01:05.699202+00:00 app[web.1]:        sequelize: [Object],
+2018-08-30T20:01:05.699203+00:00 app[web.1]:        hooks: {},
+2018-08-30T20:01:05.699205+00:00 app[web.1]:        uniqueKeys: {} },
+2018-08-30T20:01:05.699207+00:00 app[web.1]:     _options: 
+2018-08-30T20:01:05.699209+00:00 app[web.1]:      { isNewRecord: false,
+2018-08-30T20:01:05.699211+00:00 app[web.1]:        _schema: null,
+2018-08-30T20:01:05.699214+00:00 app[web.1]:        raw: true,
+2018-08-30T20:01:05.699213+00:00 app[web.1]:        _schemaDelimiter: '',
+2018-08-30T20:01:05.699219+00:00 app[web.1]:     isNewRecord: false } ]
+2018-08-30T20:01:05.699216+00:00 app[web.1]:        attributes: [Array] },
+2018-08-30T20:01:05.699217+00:00 app[web.1]:     __eagerlyLoadedAssociations: [],
+2018-08-30T20:01:07.188080+00:00 heroku[web.1]: Restarting
+2018-08-30T20:01:07.188903+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T20:01:08.283017+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T20:01:08.387682+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T20:01:08.372217+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=cdd9019b-fd06-4071-8dfb-251b8071ee95 fwd="73.70.92.32" dyno=web.1 connect=1ms service=305808ms status=101 bytes=129 protocol=https
+2018-08-30T20:01:08.371994+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=65ca2ef6-fd76-496a-bca7-3373b70554b2 fwd="73.70.92.32" dyno=web.1 connect=0ms service=306077ms status=101 bytes=129 protocol=https
+2018-08-30T20:01:10.599097+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:01:12.461764+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:01:12.461734+00:00 app[web.1]: 
+2018-08-30T20:01:12.461766+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:01:12.461768+00:00 app[web.1]: 
+2018-08-30T20:01:12.995022+00:00 app[web.1]: Thu, 30 Aug 2018 20:01:12 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:01:13.055825+00:00 app[web.1]: Thu, 30 Aug 2018 20:01:13 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:01:13.446339+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:01:13.449643+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:01:13.465398+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:01:13.466785+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:01:13.966174+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T20:01:07.023081+00:00 app[api]: Deploy 8ea6b0ab by user tgiachett@gmail.com
+2018-08-30T20:01:07.023081+00:00 app[api]: Release v48 created by user tgiachett@gmail.com
+2018-08-30T20:01:10.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:02:27.127240+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=e2c77abf-789c-4cb2-a976-17906820947a fwd="73.70.92.32" dyno=web.1 connect=0ms service=25ms status=200 bytes=752 protocol=https
+2018-08-30T20:02:27.392172+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=82d947a7-ff7c-488d-a902-d6b1dca7da23 fwd="73.70.92.32" dyno=web.1 connect=0ms service=3ms status=304 bytes=237 protocol=https
+2018-08-30T20:02:27.247122+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=4621e853-bcf4-4d76-8a46-b742f7ecc847 fwd="73.70.92.32" dyno=web.1 connect=1ms service=12ms status=200 bytes=3245 protocol=https
+2018-08-30T20:03:22.627566+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=8bc09360-7c15-43dd-95ce-b6980454b16a fwd="73.70.92.32" dyno=web.1 connect=1ms service=55008ms status=503 bytes= protocol=https
+2018-08-30T20:03:22.918036+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=da5a59e8-4093-48c0-a30c-ec9805d6d3d2 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55003ms status=503 bytes= protocol=https
+2018-08-30T20:07:52.731505+00:00 heroku[web.1]: Restarting
+2018-08-30T20:07:52.734139+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T20:07:53.374689+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T20:07:53.469753+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T20:07:35.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:07:52.060438+00:00 app[api]: Deploy 11082feb by user tgiachett@gmail.com
+2018-08-30T20:07:52.060438+00:00 app[api]: Release v49 created by user tgiachett@gmail.com
+2018-08-30T20:07:55.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:07:58.531367+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:08:01.875902+00:00 app[web.1]: 
+2018-08-30T20:08:01.875922+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:08:01.875924+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:08:01.875925+00:00 app[web.1]: 
+2018-08-30T20:08:03.066625+00:00 app[web.1]: Thu, 30 Aug 2018 20:08:03 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:08:03.198299+00:00 app[web.1]: Thu, 30 Aug 2018 20:08:03 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:08:04.381769+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:08:04.413908+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:08:04.449223+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:08:04.454974+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:08:04.783425+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T20:08:26.483980+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=c09df493-1a10-40aa-bcfd-06e934e6d1ef fwd="73.70.92.32" dyno=web.1 connect=1ms service=75ms status=200 bytes=752 protocol=https
+2018-08-30T20:08:26.600810+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=a1af41e8-dc0a-4120-b65e-b1dc3da1f9ee fwd="73.70.92.32" dyno=web.1 connect=1ms service=17ms status=200 bytes=3245 protocol=https
+2018-08-30T20:09:21.931680+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=d2d5bb11-68b5-4372-8edd-2b9c5e8127ff fwd="73.70.92.32" dyno=web.1 connect=0ms service=55015ms status=503 bytes= protocol=https
+2018-08-30T20:09:22.241419+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=605e247e-010d-4934-947a-5f0eaa5c8ae3 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55007ms status=503 bytes= protocol=https
+2018-08-30T20:19:53.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:20:15.144549+00:00 heroku[web.1]: Restarting
+2018-08-30T20:20:15.145166+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T20:20:14.957268+00:00 app[api]: Deploy 59c207a2 by user tgiachett@gmail.com
+2018-08-30T20:20:14.957268+00:00 app[api]: Release v50 created by user tgiachett@gmail.com
+2018-08-30T20:20:16.133129+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2018-08-30T20:20:16.068452+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T20:20:16.215490+00:00 heroku[web.1]: Process exited with status 22
+2018-08-30T20:20:17.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:20:25.832126+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:20:31.125433+00:00 app[web.1]: 
+2018-08-30T20:20:31.125445+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:20:31.125449+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:20:31.125451+00:00 app[web.1]: 
+2018-08-30T20:20:31.630151+00:00 app[web.1]: Thu, 30 Aug 2018 20:20:31 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:20:31.696112+00:00 app[web.1]: Thu, 30 Aug 2018 20:20:31 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:20:31.711925+00:00 app[web.1]: /app/routes/index.js:57
+2018-08-30T20:20:31.711929+00:00 app[web.1]: });
+2018-08-30T20:20:31.711930+00:00 app[web.1]: ^
+2018-08-30T20:20:31.711932+00:00 app[web.1]: 
+2018-08-30T20:20:31.711934+00:00 app[web.1]: SyntaxError: Unexpected token }
+2018-08-30T20:20:31.711936+00:00 app[web.1]:     at createScript (vm.js:80:10)
+2018-08-30T20:20:31.711938+00:00 app[web.1]:     at Object.runInThisContext (vm.js:139:10)
+2018-08-30T20:20:31.711940+00:00 app[web.1]:     at Module._compile (module.js:616:28)
+2018-08-30T20:20:31.711942+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:31.711944+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:31.711945+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:31.711947+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:20:31.711948+00:00 app[web.1]:     at Module.require (module.js:596:17)
+2018-08-30T20:20:31.711950+00:00 app[web.1]:     at require (internal/module.js:11:18)
+2018-08-30T20:20:31.711952+00:00 app[web.1]:     at Object.<anonymous> (/app/app.js:10:11)
+2018-08-30T20:20:31.711953+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:20:31.711955+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:31.711956+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:31.711958+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:31.711959+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:20:31.711961+00:00 app[web.1]:     at Module.require (module.js:596:17)
+2018-08-30T20:20:31.711962+00:00 app[web.1]:     at require (internal/module.js:11:18)
+2018-08-30T20:20:31.711964+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/server.js:1:73)
+2018-08-30T20:20:31.711966+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:20:31.711968+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:31.711969+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:31.711971+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:31.718367+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-30T20:20:31.718729+00:00 app[web.1]: npm ERR! errno 1
+2018-08-30T20:20:31.719879+00:00 app[web.1]: npm ERR! sms_zang_database@1.0.0 start: `node ./bin/server`
+2018-08-30T20:20:31.720039+00:00 app[web.1]: npm ERR! Exit status 1
+2018-08-30T20:20:31.720262+00:00 app[web.1]: npm ERR! 
+2018-08-30T20:20:31.720429+00:00 app[web.1]: npm ERR! Failed at the sms_zang_database@1.0.0 start script.
+2018-08-30T20:20:31.720597+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-08-30T20:20:31.726888+00:00 app[web.1]: 
+2018-08-30T20:20:31.727118+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-08-30T20:20:31.727255+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-08-30T20_20_31_722Z-debug.log
+2018-08-30T20:20:31.791125+00:00 heroku[web.1]: Process exited with status 1
+2018-08-30T20:20:31.806935+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-30T20:20:31.809498+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-30T20:20:37.235700+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:20:39.526825+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:20:39.526797+00:00 app[web.1]: 
+2018-08-30T20:20:39.526828+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:20:39.526829+00:00 app[web.1]: 
+2018-08-30T20:20:40.142192+00:00 app[web.1]: Thu, 30 Aug 2018 20:20:40 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:20:40.203907+00:00 app[web.1]: Thu, 30 Aug 2018 20:20:40 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:20:40.219655+00:00 app[web.1]: /app/routes/index.js:57
+2018-08-30T20:20:40.219659+00:00 app[web.1]: });
+2018-08-30T20:20:40.219663+00:00 app[web.1]: 
+2018-08-30T20:20:40.219661+00:00 app[web.1]: ^
+2018-08-30T20:20:40.219668+00:00 app[web.1]: SyntaxError: Unexpected token }
+2018-08-30T20:20:40.219671+00:00 app[web.1]:     at createScript (vm.js:80:10)
+2018-08-30T20:20:40.219672+00:00 app[web.1]:     at Object.runInThisContext (vm.js:139:10)
+2018-08-30T20:20:40.219674+00:00 app[web.1]:     at Module._compile (module.js:616:28)
+2018-08-30T20:20:40.219676+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:40.219678+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:40.219679+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:40.219680+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:20:40.219682+00:00 app[web.1]:     at Module.require (module.js:596:17)
+2018-08-30T20:20:40.219683+00:00 app[web.1]:     at require (internal/module.js:11:18)
+2018-08-30T20:20:40.219685+00:00 app[web.1]:     at Object.<anonymous> (/app/app.js:10:11)
+2018-08-30T20:20:40.219686+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:20:40.219689+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:40.219688+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:40.219690+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:40.219691+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:20:40.219693+00:00 app[web.1]:     at Module.require (module.js:596:17)
+2018-08-30T20:20:40.219694+00:00 app[web.1]:     at require (internal/module.js:11:18)
+2018-08-30T20:20:40.219695+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/server.js:1:73)
+2018-08-30T20:20:40.219696+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:20:40.219697+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:20:40.219699+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:20:40.228694+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-30T20:20:40.219700+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:20:40.229095+00:00 app[web.1]: npm ERR! errno 1
+2018-08-30T20:20:40.230253+00:00 app[web.1]: npm ERR! sms_zang_database@1.0.0 start: `node ./bin/server`
+2018-08-30T20:20:40.230424+00:00 app[web.1]: npm ERR! Exit status 1
+2018-08-30T20:20:40.230685+00:00 app[web.1]: npm ERR! 
+2018-08-30T20:20:40.230863+00:00 app[web.1]: npm ERR! Failed at the sms_zang_database@1.0.0 start script.
+2018-08-30T20:20:40.231030+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-08-30T20:20:40.237427+00:00 app[web.1]: 
+2018-08-30T20:20:40.237616+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-08-30T20:20:40.237682+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-08-30T20_20_40_232Z-debug.log
+2018-08-30T20:20:40.315060+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-30T20:20:40.298630+00:00 heroku[web.1]: Process exited with status 1
+2018-08-30T20:21:30.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:21:48.864929+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-30T20:21:48.557732+00:00 app[api]: Release v51 created by user tgiachett@gmail.com
+2018-08-30T20:21:48.557732+00:00 app[api]: Deploy 4d62cd5a by user tgiachett@gmail.com
+2018-08-30T20:21:55.086133+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:21:51.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:21:58.147300+00:00 app[web.1]: 
+2018-08-30T20:21:58.147320+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:21:58.147322+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:21:58.147323+00:00 app[web.1]: 
+2018-08-30T20:21:59.287694+00:00 app[web.1]: Thu, 30 Aug 2018 20:21:59 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:21:59.395633+00:00 app[web.1]: Thu, 30 Aug 2018 20:21:59 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:21:59.976055+00:00 app[web.1]: /app/bin/server.js:117
+2018-08-30T20:21:59.976076+00:00 app[web.1]:                        ^
+2018-08-30T20:21:59.976078+00:00 app[web.1]: 
+2018-08-30T20:21:59.976074+00:00 app[web.1]: module.exports = port, wss;
+2018-08-30T20:21:59.976082+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/server.js:117:24)
+2018-08-30T20:21:59.976080+00:00 app[web.1]: ReferenceError: wss is not defined
+2018-08-30T20:21:59.976085+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:21:59.976084+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:21:59.976089+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:21:59.976090+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:21:59.976093+00:00 app[web.1]:     at startup (bootstrap_node.js:191:16)
+2018-08-30T20:21:59.976087+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:21:59.976095+00:00 app[web.1]:     at bootstrap_node.js:612:3
+2018-08-30T20:21:59.976092+00:00 app[web.1]:     at Function.Module.runMain (module.js:693:10)
+2018-08-30T20:21:59.993653+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-30T20:21:59.994214+00:00 app[web.1]: npm ERR! errno 1
+2018-08-30T20:21:59.996684+00:00 app[web.1]: npm ERR! Exit status 1
+2018-08-30T20:21:59.996426+00:00 app[web.1]: npm ERR! sms_zang_database@1.0.0 start: `node ./bin/server`
+2018-08-30T20:21:59.997046+00:00 app[web.1]: npm ERR! 
+2018-08-30T20:21:59.997574+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-08-30T20:21:59.997313+00:00 app[web.1]: npm ERR! Failed at the sms_zang_database@1.0.0 start script.
+2018-08-30T20:22:00.010433+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-08-30T20:22:00.009961+00:00 app[web.1]: 
+2018-08-30T20:22:00.010608+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-08-30T20_22_00_000Z-debug.log
+2018-08-30T20:22:00.093426+00:00 heroku[web.1]: Process exited with status 1
+2018-08-30T20:22:00.114363+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-30T20:22:02.247865+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=0c560d08-d037-4aff-8064-1e6acecca554 fwd="73.70.92.32" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-30T20:22:06.795848+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=46bd51bd-ba64-4443-baa0-e896b1871855 fwd="73.70.92.32" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-30T20:33:58.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:34:16.267446+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-30T20:34:15.627041+00:00 app[api]: Release v52 created by user tgiachett@gmail.com
+2018-08-30T20:34:15.627041+00:00 app[api]: Deploy 32d6c332 by user tgiachett@gmail.com
+2018-08-30T20:34:19.833514+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:34:18.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:34:22.413794+00:00 app[web.1]: 
+2018-08-30T20:34:22.413814+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:34:22.413817+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:34:22.413818+00:00 app[web.1]: 
+2018-08-30T20:34:22.909775+00:00 app[web.1]: Thu, 30 Aug 2018 20:34:22 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:34:22.966686+00:00 app[web.1]: Thu, 30 Aug 2018 20:34:22 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:34:23.262811+00:00 app[web.1]: /app/bin/server.js:118
+2018-08-30T20:34:23.262823+00:00 app[web.1]: module.exports = wss
+2018-08-30T20:34:23.262824+00:00 app[web.1]:                  ^
+2018-08-30T20:34:23.262826+00:00 app[web.1]: 
+2018-08-30T20:34:23.262827+00:00 app[web.1]: ReferenceError: wss is not defined
+2018-08-30T20:34:23.262829+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/server.js:118:18)
+2018-08-30T20:34:23.262830+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:34:23.262831+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:34:23.262832+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:34:23.262834+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:34:23.262835+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:34:23.262836+00:00 app[web.1]:     at Function.Module.runMain (module.js:693:10)
+2018-08-30T20:34:23.262837+00:00 app[web.1]:     at startup (bootstrap_node.js:191:16)
+2018-08-30T20:34:23.262839+00:00 app[web.1]:     at bootstrap_node.js:612:3
+2018-08-30T20:34:23.272260+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-30T20:34:23.272595+00:00 app[web.1]: npm ERR! errno 1
+2018-08-30T20:34:23.273681+00:00 app[web.1]: npm ERR! sms_zang_database@1.0.0 start: `node ./bin/server`
+2018-08-30T20:34:23.273794+00:00 app[web.1]: npm ERR! Exit status 1
+2018-08-30T20:34:23.273995+00:00 app[web.1]: npm ERR! 
+2018-08-30T20:34:23.274097+00:00 app[web.1]: npm ERR! Failed at the sms_zang_database@1.0.0 start script.
+2018-08-30T20:34:23.274211+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-08-30T20:34:23.277953+00:00 app[web.1]: 
+2018-08-30T20:34:23.278108+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-08-30T20:34:23.278228+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-08-30T20_34_23_275Z-debug.log
+2018-08-30T20:34:23.361571+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-30T20:34:23.363221+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-30T20:34:23.341040+00:00 heroku[web.1]: Process exited with status 1
+2018-08-30T20:34:27.491940+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:34:31.385621+00:00 app[web.1]: 
+2018-08-30T20:34:31.385677+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:34:31.385680+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:34:31.385682+00:00 app[web.1]: 
+2018-08-30T20:34:32.187915+00:00 app[web.1]: Thu, 30 Aug 2018 20:34:32 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:34:32.324776+00:00 app[web.1]: Thu, 30 Aug 2018 20:34:32 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:34:32.892011+00:00 app[web.1]: /app/bin/server.js:118
+2018-08-30T20:34:32.892018+00:00 app[web.1]: module.exports = wss
+2018-08-30T20:34:32.892019+00:00 app[web.1]:                  ^
+2018-08-30T20:34:32.892021+00:00 app[web.1]: 
+2018-08-30T20:34:32.892023+00:00 app[web.1]: ReferenceError: wss is not defined
+2018-08-30T20:34:32.892026+00:00 app[web.1]:     at Object.<anonymous> (/app/bin/server.js:118:18)
+2018-08-30T20:34:32.892030+00:00 app[web.1]:     at Module._compile (module.js:652:30)
+2018-08-30T20:34:32.892033+00:00 app[web.1]:     at Module.load (module.js:565:32)
+2018-08-30T20:34:32.892031+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:663:10)
+2018-08-30T20:34:32.892034+00:00 app[web.1]:     at tryModuleLoad (module.js:505:12)
+2018-08-30T20:34:32.892036+00:00 app[web.1]:     at Function.Module._load (module.js:497:3)
+2018-08-30T20:34:32.892038+00:00 app[web.1]:     at Function.Module.runMain (module.js:693:10)
+2018-08-30T20:34:32.892039+00:00 app[web.1]:     at startup (bootstrap_node.js:191:16)
+2018-08-30T20:34:32.892041+00:00 app[web.1]:     at bootstrap_node.js:612:3
+2018-08-30T20:34:32.904577+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-30T20:34:32.905043+00:00 app[web.1]: npm ERR! errno 1
+2018-08-30T20:34:32.906797+00:00 app[web.1]: npm ERR! sms_zang_database@1.0.0 start: `node ./bin/server`
+2018-08-30T20:34:32.906990+00:00 app[web.1]: npm ERR! Exit status 1
+2018-08-30T20:34:32.907259+00:00 app[web.1]: npm ERR! 
+2018-08-30T20:34:32.907466+00:00 app[web.1]: npm ERR! Failed at the sms_zang_database@1.0.0 start script.
+2018-08-30T20:34:32.907671+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-08-30T20:34:32.917404+00:00 app[web.1]: 
+2018-08-30T20:34:32.917641+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-08-30T20:34:32.917836+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-08-30T20_34_32_909Z-debug.log
+2018-08-30T20:34:33.008514+00:00 heroku[web.1]: Process exited with status 1
+2018-08-30T20:34:33.025565+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-30T20:35:03.826299+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=091cbacc-f821-4311-af75-ea472cbb048b fwd="73.70.92.32" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-30T20:35:10.425441+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=51b7b41f-e42b-466c-b021-17368d88837f fwd="73.70.92.32" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-30T20:37:33.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:37:51.351599+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-30T20:37:51.098245+00:00 app[api]: Deploy 6953f0ed by user tgiachett@gmail.com
+2018-08-30T20:37:51.098245+00:00 app[api]: Release v53 created by user tgiachett@gmail.com
+2018-08-30T20:37:54.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:37:56.164343+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:37:58.210198+00:00 app[web.1]: 
+2018-08-30T20:37:58.210223+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:37:58.210225+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:37:58.210227+00:00 app[web.1]: 
+2018-08-30T20:37:58.737734+00:00 app[web.1]: Thu, 30 Aug 2018 20:37:58 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:37:58.793613+00:00 app[web.1]: Thu, 30 Aug 2018 20:37:58 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:37:59.643472+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:37:59.668132+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:37:59.696620+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:37:59.701982+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:38:00.028330+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T20:38:07.496182+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=92938518-c015-4b5c-9969-21d8371de898 fwd="73.70.92.32" dyno=web.1 connect=2ms service=26ms status=200 bytes=752 protocol=https
+2018-08-30T20:38:07.604586+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=bf7a98e9-686e-4a15-96d3-a8834a2304b8 fwd="73.70.92.32" dyno=web.1 connect=1ms service=9ms status=200 bytes=3245 protocol=https
+2018-08-30T20:39:03.033733+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=3a793707-cb60-4b1f-a116-c3ba0898766d fwd="73.70.92.32" dyno=web.1 connect=21ms service=55015ms status=503 bytes= protocol=https
+2018-08-30T20:39:03.365987+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=81818ffe-244f-4595-a2cc-a2c01df0287b fwd="73.70.92.32" dyno=web.1 connect=1ms service=55002ms status=503 bytes= protocol=https
+2018-08-30T20:42:49.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T20:43:05.567859+00:00 heroku[web.1]: Restarting
+2018-08-30T20:43:05.568460+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T20:43:05.398744+00:00 app[api]: Release v54 created by user tgiachett@gmail.com
+2018-08-30T20:43:05.398744+00:00 app[api]: Deploy d9c08617 by user tgiachett@gmail.com
+2018-08-30T20:43:06.458819+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T20:43:06.579353+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T20:43:08.000000+00:00 app[api]: Build succeeded
+2018-08-30T20:43:10.544635+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T20:43:13.053289+00:00 app[web.1]: 
+2018-08-30T20:43:13.053311+00:00 app[web.1]: 
+2018-08-30T20:43:13.656179+00:00 app[web.1]: Thu, 30 Aug 2018 20:43:13 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T20:43:13.731812+00:00 app[web.1]: Thu, 30 Aug 2018 20:43:13 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T20:43:14.266458+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T20:43:14.186007+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:43:14.200046+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T20:43:14.189473+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:43:14.201343+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T20:43:13.053308+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T20:43:13.053310+00:00 app[web.1]: > node ./bin/server
+2018-08-30T20:43:34.705826+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=8b80cc1f-eced-4994-8ba7-00a8c62697c5 fwd="73.70.92.32" dyno=web.1 connect=1ms service=5ms status=200 bytes=3245 protocol=https
+2018-08-30T20:43:34.598547+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=c090495f-df29-4b09-b65d-e5d565c2937f fwd="73.70.92.32" dyno=web.1 connect=1ms service=24ms status=200 bytes=752 protocol=https
+2018-08-30T20:44:05.607726+00:00 app[web.1]: received: test
+2018-08-30T20:44:29.984741+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=278c13d3-c54c-4f31-997b-c45ae7d4e4f1 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55006ms status=503 bytes= protocol=https
+2018-08-30T20:45:00.605596+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=e70d9caf-4adf-41f8-a0f6-963819c9762a fwd="73.70.92.32" dyno=web.1 connect=1ms service=85355ms status=503 bytes= protocol=https
+2018-08-30T21:14:34.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T21:14:51.108488+00:00 app[api]: Release v55 created by user tgiachett@gmail.com
+2018-08-30T21:14:51.108488+00:00 app[api]: Deploy 7c74681a by user tgiachett@gmail.com
+2018-08-30T21:14:51.417208+00:00 heroku[web.1]: Restarting
+2018-08-30T21:14:51.417827+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T21:14:52.146335+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T21:14:52.262546+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T21:14:54.000000+00:00 app[api]: Build succeeded
+2018-08-30T21:14:54.714024+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T21:14:56.981461+00:00 app[web.1]: 
+2018-08-30T21:14:56.981482+00:00 app[web.1]: > node ./bin/server
+2018-08-30T21:14:56.981480+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T21:14:56.981484+00:00 app[web.1]: 
+2018-08-30T21:14:57.498099+00:00 app[web.1]: Thu, 30 Aug 2018 21:14:57 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T21:14:57.446970+00:00 app[web.1]: Thu, 30 Aug 2018 21:14:57 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T21:14:57.908359+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:14:57.904933+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:14:57.918931+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:14:57.921727+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:14:58.471311+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T21:15:03.539446+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=242428f9-9222-409e-933c-00b7b5048be6 fwd="73.70.92.32" dyno=web.1 connect=0ms service=22ms status=200 bytes=752 protocol=https
+2018-08-30T21:15:03.648198+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=8a91a45c-2d3d-44e9-94be-2a4e54ff2d63 fwd="73.70.92.32" dyno=web.1 connect=0ms service=3ms status=200 bytes=3245 protocol=https
+2018-08-30T21:15:58.962287+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=a14849f0-c906-4a40-9f5a-e84a101508a5 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55003ms status=503 bytes= protocol=https
+2018-08-30T21:15:59.269169+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=885e49ab-41df-4b2b-a0c6-d498d8eeb024 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55003ms status=503 bytes= protocol=https
+2018-08-30T21:16:43.981830+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=3eecd084-10f3-4bfb-b50e-58f64bbadbc8 fwd="73.70.92.32" dyno=web.1 connect=1ms service=4ms status=304 bytes=237 protocol=https
+2018-08-30T21:16:44.080230+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=2533a065-414a-4828-abca-189d96b364eb fwd="73.70.92.32" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
+2018-08-30T21:17:39.363805+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=e57cc047-20cc-4cf6-9596-f2e7748f1d30 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55003ms status=503 bytes= protocol=https
+2018-08-30T21:17:39.622489+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=8ad9b23c-1f0c-4c3d-a763-00f08dc9eef3 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55002ms status=503 bytes= protocol=https
+2018-08-30T21:18:32.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T21:18:50.352343+00:00 heroku[web.1]: Restarting
+2018-08-30T21:18:50.358836+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T21:18:50.077006+00:00 app[api]: Deploy 9e7fca2a by user tgiachett@gmail.com
+2018-08-30T21:18:50.077006+00:00 app[api]: Release v56 created by user tgiachett@gmail.com
+2018-08-30T21:18:51.242640+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T21:18:51.309931+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T21:18:52.000000+00:00 app[api]: Build succeeded
+2018-08-30T21:18:53.871274+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T21:18:55.711669+00:00 app[web.1]: 
+2018-08-30T21:18:55.711689+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T21:18:55.711691+00:00 app[web.1]: > node ./bin/server
+2018-08-30T21:18:55.711692+00:00 app[web.1]: 
+2018-08-30T21:18:56.300443+00:00 app[web.1]: Thu, 30 Aug 2018 21:18:56 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T21:18:56.373535+00:00 app[web.1]: Thu, 30 Aug 2018 21:18:56 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T21:18:56.793816+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:18:56.797015+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:18:56.809760+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:18:56.811287+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:18:57.283047+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T21:19:02.468522+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=f3e33577-a57a-4124-9da7-f2894a761868 fwd="73.70.92.32" dyno=web.1 connect=0ms service=16ms status=200 bytes=752 protocol=https
+2018-08-30T21:19:02.564474+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=f64c25cf-8ce4-4e0a-9d2d-3c6f594f2364 fwd="73.70.92.32" dyno=web.1 connect=0ms service=3ms status=200 bytes=3245 protocol=https
+2018-08-30T21:19:57.862668+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=19e69899-586c-4c82-91e6-8eec525a2eb4 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55004ms status=503 bytes= protocol=https
+2018-08-30T21:19:58.124412+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=d1ba1db1-b12d-4e30-b23d-7bad961762c9 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55003ms status=503 bytes= protocol=https
+2018-08-30T21:21:45.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T21:22:03.415268+00:00 heroku[web.1]: Restarting
+2018-08-30T21:22:03.415718+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T21:22:04.012446+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T21:22:04.096408+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T21:22:02.520188+00:00 app[api]: Release v57 created by user tgiachett@gmail.com
+2018-08-30T21:22:02.520188+00:00 app[api]: Deploy 342ad288 by user tgiachett@gmail.com
+2018-08-30T21:22:05.000000+00:00 app[api]: Build succeeded
+2018-08-30T21:22:08.799109+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T21:22:10.607536+00:00 app[web.1]: 
+2018-08-30T21:22:10.607553+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T21:22:10.607554+00:00 app[web.1]: > node ./bin/server
+2018-08-30T21:22:10.607556+00:00 app[web.1]: 
+2018-08-30T21:22:11.079226+00:00 app[web.1]: Thu, 30 Aug 2018 21:22:11 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T21:22:11.132519+00:00 app[web.1]: Thu, 30 Aug 2018 21:22:11 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T21:22:11.498831+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:22:11.512249+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:22:11.501955+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:22:11.513896+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:22:11.687956+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T21:22:21.782419+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=037dd33a-6cb0-45ae-9830-fe20560dd21e fwd="73.70.92.32" dyno=web.1 connect=3ms service=56ms status=200 bytes=752 protocol=https
+2018-08-30T21:22:21.990193+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=b7a9f370-5df3-4e05-8de0-2dea298f5a93 fwd="73.70.92.32" dyno=web.1 connect=6ms service=99ms status=200 bytes=3245 protocol=https
+2018-08-30T21:23:17.363762+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=9a40f048-9865-4015-a82b-a8e85413be7d fwd="73.70.92.32" dyno=web.1 connect=1ms service=55006ms status=503 bytes= protocol=https
+2018-08-30T21:23:17.740164+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=6571fc5b-6211-4eda-80a1-92ec15acad7c fwd="73.70.92.32" dyno=web.1 connect=0ms service=55002ms status=503 bytes= protocol=https
+2018-08-30T21:24:16.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T21:24:35.175693+00:00 heroku[web.1]: Restarting
+2018-08-30T21:24:35.176162+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T21:24:35.844498+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T21:24:34.832182+00:00 app[api]: Deploy 2232909f by user tgiachett@gmail.com
+2018-08-30T21:24:35.932475+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T21:24:34.832182+00:00 app[api]: Release v58 created by user tgiachett@gmail.com
+2018-08-30T21:24:37.000000+00:00 app[api]: Build succeeded
+2018-08-30T21:24:47.805168+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T21:24:50.838849+00:00 app[web.1]: 
+2018-08-30T21:24:50.838867+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T21:24:50.838869+00:00 app[web.1]: > node ./bin/server
+2018-08-30T21:24:50.838870+00:00 app[web.1]: 
+2018-08-30T21:24:51.741311+00:00 app[web.1]: Thu, 30 Aug 2018 21:24:51 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T21:24:51.894187+00:00 app[web.1]: Thu, 30 Aug 2018 21:24:51 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T21:24:52.578433+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:24:52.583022+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:24:52.602733+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:24:52.605796+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:24:53.144800+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T21:24:54.161193+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=f86e4f13-575d-4457-93a5-c7a54051b012 fwd="73.70.92.32" dyno=web.1 connect=1ms service=47ms status=200 bytes=752 protocol=https
+2018-08-30T21:24:54.290383+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=d56589a4-5e6f-4631-bd33-0c61ba836317 fwd="73.70.92.32" dyno=web.1 connect=2ms service=9ms status=200 bytes=3245 protocol=https
+2018-08-30T21:25:49.668882+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=fdb39ded-c099-49ef-b9ab-65b96c89f042 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55006ms status=503 bytes= protocol=https
+2018-08-30T21:25:50.009605+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=9c4565cc-0f8d-4276-a40a-b139d413da60 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55007ms status=503 bytes= protocol=https
+2018-08-30T21:27:30.856673+00:00 app[web.1]: Executing (default): SELECT "id", "username", "createdAt", "updatedAt" FROM "Users" AS "User";
+2018-08-30T21:27:30.879903+00:00 app[web.1]: Unhandled rejection Error: No default engine was specified and no extension was provided.
+2018-08-30T21:27:30.879909+00:00 app[web.1]:     at new View (/app/node_modules/express/lib/view.js:61:11)
+2018-08-30T21:27:30.879912+00:00 app[web.1]:     at Function.render (/app/node_modules/express/lib/application.js:570:12)
+2018-08-30T21:27:30.879914+00:00 app[web.1]:     at ServerResponse.render (/app/node_modules/express/lib/response.js:1008:7)
+2018-08-30T21:27:30.879915+00:00 app[web.1]:     at models.User.findAll.then (/app/routes/index.js:20:9)
+2018-08-30T21:27:30.879917+00:00 app[web.1]:     at tryCatcher (/app/node_modules/bluebird/js/release/util.js:16:23)
+2018-08-30T21:27:30.879921+00:00 app[web.1]:     at Promise._settlePromise (/app/node_modules/bluebird/js/release/promise.js:569:18)
+2018-08-30T21:27:30.879919+00:00 app[web.1]:     at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/release/promise.js:512:31)
+2018-08-30T21:27:30.879922+00:00 app[web.1]:     at Promise._settlePromise0 (/app/node_modules/bluebird/js/release/promise.js:614:10)
+2018-08-30T21:27:30.879924+00:00 app[web.1]:     at Promise._settlePromises (/app/node_modules/bluebird/js/release/promise.js:693:18)
+2018-08-30T21:27:30.879926+00:00 app[web.1]:     at Async._drainQueue (/app/node_modules/bluebird/js/release/async.js:133:16)
+2018-08-30T21:27:30.879927+00:00 app[web.1]:     at Async._drainQueues (/app/node_modules/bluebird/js/release/async.js:143:10)
+2018-08-30T21:27:30.879929+00:00 app[web.1]:     at Immediate.Async.drainQueues (/app/node_modules/bluebird/js/release/async.js:17:14)
+2018-08-30T21:27:30.879931+00:00 app[web.1]:     at runCallback (timers.js:810:20)
+2018-08-30T21:27:30.879949+00:00 app[web.1]:     at tryOnImmediate (timers.js:768:5)
+2018-08-30T21:27:30.879951+00:00 app[web.1]:     at processImmediate [as _immediateCallback] (timers.js:745:5)
+2018-08-30T21:28:00.773926+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/surf" host=enigmatic-plains-27539.herokuapp.com request_id=b2342680-ef04-4510-b127-8dc67ed541e6 fwd="73.70.92.32" dyno=web.1 connect=2ms service=30000ms status=503 bytes=0 protocol=https
+2018-08-30T21:28:01.213129+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=b400df53-ab30-4246-80d0-dd90eae8ec92 fwd="73.70.92.32" dyno=web.1 connect=1ms service=9ms status=304 bytes=237 protocol=https
+2018-08-30T21:28:01.322648+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=fdd963cd-2b19-430d-83ee-8a581a518dbf fwd="73.70.92.32" dyno=web.1 connect=0ms service=5ms status=304 bytes=237 protocol=https
+2018-08-30T21:28:56.629753+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=b731a7aa-b294-4485-83d6-683e2f6e2711 fwd="73.70.92.32" dyno=web.1 connect=0ms service=55006ms status=503 bytes= protocol=https
+2018-08-30T21:28:56.935530+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=fb09086d-ed84-42ab-8054-23ebb9aaefec fwd="73.70.92.32" dyno=web.1 connect=1ms service=55002ms status=503 bytes= protocol=https
+2018-08-30T21:29:24.000000+00:00 app[api]: Build started by user tgiachett@gmail.com
+2018-08-30T21:29:43.088050+00:00 app[api]: Deploy c921f55b by user tgiachett@gmail.com
+2018-08-30T21:29:43.088050+00:00 app[api]: Release v59 created by user tgiachett@gmail.com
+2018-08-30T21:29:43.453860+00:00 heroku[web.1]: Restarting
+2018-08-30T21:29:43.454379+00:00 heroku[web.1]: State changed from up to starting
+2018-08-30T21:29:44.559674+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-08-30T21:29:44.685687+00:00 heroku[web.1]: Process exited with status 143
+2018-08-30T21:29:45.000000+00:00 app[api]: Build succeeded
+2018-08-30T21:29:48.731497+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-30T21:29:51.698374+00:00 app[web.1]: 
+2018-08-30T21:29:51.698398+00:00 app[web.1]: > sms_zang_database@1.0.0 start /app
+2018-08-30T21:29:51.698400+00:00 app[web.1]: > node ./bin/server
+2018-08-30T21:29:51.698402+00:00 app[web.1]: 
+2018-08-30T21:29:52.712163+00:00 app[web.1]: Thu, 30 Aug 2018 21:29:52 GMT sequelize deprecated The logging-option should be either a function or false. Default: console.log at node_modules/sequelize/lib/sequelize.js:193:13
+2018-08-30T21:29:52.798474+00:00 app[web.1]: Thu, 30 Aug 2018 21:29:52 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-08-30T21:29:53.446022+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Entries" ("id"  SERIAL , "comBody" VARCHAR(255), "category" VARCHAR(255) DEFAULT 'Public', "tbl" VARCHAR(255), "tblPass" VARCHAR(255), "SmsSid" VARCHAR(255) NOT NULL, "from" VARCHAR(255) NOT NULL, "wholeBody" TEXT, "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:29:53.458433+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Entries' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:29:53.501631+00:00 app[web.1]: Executing (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "username" VARCHAR(255), "createdAt" TIMESTAMP WITH TIME ZONE NOT NULL, "updatedAt" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY ("id"));
+2018-08-30T21:29:53.505738+00:00 app[web.1]: Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2018-08-30T21:29:54.167658+00:00 heroku[web.1]: State changed from starting to up
+2018-08-30T21:30:01.707166+00:00 heroku[router]: at=info method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=6aa3fcce-d3af-4e23-8182-21d5a74ceda1 fwd="73.70.92.32" dyno=web.1 connect=2ms service=49ms status=200 bytes=752 protocol=https
+2018-08-30T21:30:01.897859+00:00 heroku[router]: at=info method=GET path="/client.js" host=enigmatic-plains-27539.herokuapp.com request_id=ae89785f-b8f0-44e9-95c1-7b4bde2ec9a4 fwd="73.70.92.32" dyno=web.1 connect=43ms service=9ms status=200 bytes=3245 protocol=https
+2018-08-30T21:30:57.170743+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=838d83e1-c8ed-4be2-b2d9-39447da7b7fa fwd="73.70.92.32" dyno=web.1 connect=0ms service=55007ms status=503 bytes= protocol=https
+2018-08-30T21:30:57.441341+00:00 heroku[router]: at=error code=H15 desc="Idle connection" method=GET path="/" host=enigmatic-plains-27539.herokuapp.com request_id=43f0b20a-9fa8-40d4-82bb-a5e004474804 fwd="73.70.92.32" dyno=web.1 connect=1ms service=55002ms status=503 bytes= protocol=https
