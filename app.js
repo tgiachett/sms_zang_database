@@ -31,7 +31,8 @@ app.use("/", function (req, res, next) {
     wss.broadcast(JSON.stringify(dbEntries))
     });
   next()
-}, routes);
+});
+app.use("/", routes);
 app.use("/api", api);
 app.use("/users", users);
 app.use("/zang", zang);
