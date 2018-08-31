@@ -38,7 +38,7 @@ app.use('/zang', function (req, res, next) {
 	models.Entry.findAll({}).then((dbEntries) => {
     
 		wss.broadcast(JSON.stringify(dbEntries))
-		res.send('broadcast success')
+		res.send('broadcast middleware success')
 		
 	
 	});

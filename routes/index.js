@@ -23,7 +23,7 @@ router.get("/surf", (req, res) => {
     
       wss.broadcast(JSON.stringify(dbEntries))
       res.send('broadcast success')
-      
+
     
     });
   });
