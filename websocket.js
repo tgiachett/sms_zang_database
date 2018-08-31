@@ -1,6 +1,8 @@
 const WebSocket = require('ws');
-const port =  8081
-let wss = new WebSocket.Server({port: port});
+
+let wss = {};
+
+wss.server = function( server )  { return new WebSocket.Server({server});}
 
 
 

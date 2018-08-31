@@ -2,7 +2,7 @@
 
 ( () => {
 
-const ws = new WebSocket(`wss://${location.hostname}:8081`);
+const ws = new WebSocket(`ws://${location.host}`);
 const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`);
  
