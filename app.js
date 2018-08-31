@@ -23,12 +23,12 @@ app.use(express.static("./public"));
 
 // setup handlebars
 
-app.use("/", function (req, res, next) {
-  models.Entry.findAll({}).then((dbEntries) => {
-    wss.broadcast(JSON.stringify(dbEntries))
-    });
-  next()
-});
+// app.use("/", function (req, res, next) {
+//   models.Entry.findAll({}).then((dbEntries) => {
+//     wss.broadcast(JSON.stringify(dbEntries))
+//     });
+//   next()
+// });
 app.use("/", routes);
 app.use("/api", api);
 app.use("/users", users);

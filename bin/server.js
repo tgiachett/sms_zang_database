@@ -40,7 +40,7 @@ models.sequelize.sync().then(function() {
       }
     });
   };
-  
+
    wss.on('connection', function connection(ws) {
     ws.send("Connected")
 

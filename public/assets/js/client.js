@@ -5,7 +5,7 @@
 
 
 
-const ws = new WebSocket(`ws://${location.host}`);
+const ws = new WebSocket(`wss://${location.host}`);
  
 ws.onopen = (event) => console.log(`Websocket connection is Open`)
  

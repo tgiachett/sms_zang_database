@@ -4,18 +4,19 @@ const WebSocket = require('ws');
 let wss = {};
 
 wss.server = (server) => {
+  console.log("New websocket server")
   return new WebSocket.Server({ server })
 }
  
   
 
-wss.broadcast = function broadcast(data) {
-   wss.clients.forEach(function each(client) {
-     if (client.readyState === WebSocket.OPEN) {
-       client.send(data);
-     }
-   });
- };
+// wss.broadcast = function broadcast(data) {
+//    wss.clients.forEach(function each(client) {
+//      if (client.readyState === WebSocket.OPEN) {
+//        client.send(data);
+//      }
+//    });
+//  };
  
  
 //  wss.on('connection', function connection(ws) {
