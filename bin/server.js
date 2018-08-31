@@ -30,7 +30,7 @@ models.sequelize.sync().then(function() {
   /**
    * Listen on provided port, on all network interfaces.
    */
-  let wssServer = new WebSocket.Server({ server });
+   
    wss.on('connection', function connection(ws) {
    
 
@@ -112,6 +112,7 @@ function onListening() {
 //CHAI MOCHA TEST export
 module.exports = port;
 module.exports = server;
+module.exports = new WebSocket.Server({ server });
 
 
 
