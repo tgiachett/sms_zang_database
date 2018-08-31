@@ -3,7 +3,7 @@ var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
-const wssMod = require('../websocket')
+const wss = require('../websocket')
 const express = require("express");
 const router  = express.Router()
 /**
@@ -25,7 +25,7 @@ const router  = express.Router()
 
    var server = http.createServer(app);
 
-   let wss = wssMod.server(server)
+   
     wss.on('connection', function connection(ws) {
      ws.send("Connected")
      console.log("connection")
