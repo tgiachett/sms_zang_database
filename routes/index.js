@@ -3,7 +3,7 @@ const models  = require("../models");
 const express = require("express");
 const router  = express.Router();
 const sms = require('../controller/sms.js');
-const wss = require('../bin/server.js').wss
+const server = require('../bin/server.js')
 
 router.get("/", (req, res) => {
   models.Entry.findAll({}).then((dbEntries) => {
@@ -18,7 +18,7 @@ router.get("/", (req, res) => {
 router.get("/surf", (req, res) => {
   
   models.Entry.findAll({}).then((dbEntries) => {
-    wss.broadcast(JSON.stringify(dbEntries))
+    server.wss.broadcast(JSON.stringify(dbEntries))
     });
   });
 
