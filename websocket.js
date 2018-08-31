@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const server = require('./bin/server')
 
 
-let wss = new WebSocket.Server({ server });
+
   
 
 wss.broadcast = function broadcast(data) {

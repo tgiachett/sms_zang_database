@@ -6,6 +6,7 @@ bodyParser = require("body-parser")
 const wss = require('../websocket')
 const express = require("express");
 const router  = express.Router()
+const WebSocket = require('ws')
 /**
  * Get port from environment and store in Express.
  */
@@ -29,7 +30,8 @@ models.sequelize.sync().then(function() {
   /**
    * Listen on provided port, on all network interfaces.
    */
-  wss.on('connection', function connection(ws) {
+  let wssServer = new WebSocket.Server({ server });
+   wss.on('connection', function connection(ws) {
    
 
     console.log("connection")
