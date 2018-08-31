@@ -111,8 +111,8 @@ function onListening() {
 
 //CHAI MOCHA TEST export
 module.exports = port;
-module.exports = server;
-module.exports = new WebSocket.Server({ server });
+exports.server = server;
+
 
 
 
