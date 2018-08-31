@@ -3,10 +3,10 @@ var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
-const wss = require('../websocket')
+const wSocket = require('../websocket')
 const express = require("express");
 const router  = express.Router()
-const WebSocket = require('ws')
+let wss;
 /**
  * Get port from environment and store in Express.
  */
@@ -31,8 +31,10 @@ models.sequelize.sync().then(function() {
    * Listen on provided port, on all network interfaces.
    */
    
+   wss = wSocket.server(server)
+
    wss.on('connection', function connection(ws) {
-   
+    ws.send("Connected")
 
     console.log("connection")
   })
@@ -110,8 +112,8 @@ function onListening() {
 }
 
 //CHAI MOCHA TEST export
-module.exports = port;
-exports.server = server;
+module.exports = port, wss;
+
 
 
 

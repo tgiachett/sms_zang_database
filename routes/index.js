@@ -3,12 +3,12 @@ const models  = require("../models");
 const express = require("express");
 const router  = express.Router();
 const sms = require('../controller/sms.js');
-const wss = require('../bin/server.js')
+const wss = require('../bin/server.js').wss
 
 router.get("/", (req, res) => {
   models.Entry.findAll({}).then((dbEntries) => {
-     console.log(wss)
-    wss.broadcast(JSON.stringify(dbEntries))
+     
+    res.json(dbEntries)
     });
   
   
