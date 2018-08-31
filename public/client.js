@@ -2,7 +2,7 @@
 
 ( () => {
 
-const ws = new WebSocket(`wss://${location.host}`);
+const ws = new WebSocket(`ws://${location.hostname}:8081`);
 const postTest = document.querySelector('#postTest');
 ws.onopen = (event) => console.log(`Websocket connection is Open`);
  
@@ -13,7 +13,7 @@ postTest.onclick = () => {
 
 ws.onmessage = function (msg) {
 
-console.log(msg)
+console.log(msg.data)
 
 // var reader = new FileReader();
 // reader.readAsText(msg.data, 'utf-8');

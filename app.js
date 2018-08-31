@@ -32,6 +32,18 @@ app.use(express.static("./public"));
 app.use("/", routes);
 app.use("/api", api);
 app.use("/users", users);
+app.use('/zang', function (req, res, next) {
+	console.log(req)
+	console.log(res)
+	models.Entry.findAll({}).then((dbEntries) => {
+    
+		wss.broadcast(JSON.stringify(dbEntries))
+		res.send('broadcast success')
+		
+	
+	});
+  next()
+})
 app.use("/zang", zang);
 
 module.exports = app;

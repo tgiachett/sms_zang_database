@@ -3,13 +3,15 @@ const models  = require("../models");
 const express = require("express");
 const router  = express.Router();
 const sms = require('../controller/sms.js');
+const wss = require('../websocket');
+
 
 router.post("/incoming", (req, res) => {
   res.send("Success");
   console.log(req.body);
   let smsComObj = {};
   let msgInfo = req.body;
-  
+  // trigger the websocket, testing inside route (prob should be middleware)
   // merge request body onto smsComObj
   smsComObj.from = msgInfo.From;
   smsComObj.SmsSid = msgInfo.SmsSid;

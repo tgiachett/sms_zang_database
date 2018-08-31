@@ -1,14 +1,8 @@
 const WebSocket = require('ws');
+const port = process.env.PORT || 8081
+let wss = new WebSocket.Server({port: port});
 
 
-let wss = {};
-
-wss.server = (server) => {
-  console.log("New websocket server")
-  return new WebSocket.Server({ server })
-}
- 
-  
 
 wss.broadcast = function broadcast(data) {
    wss.clients.forEach(function each(client) {
