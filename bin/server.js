@@ -3,7 +3,7 @@ var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
-const WebSocket = require('ws');
+const wss = require('../websocket')
 const express = require("express");
 const router  = express.Router()
 /**
@@ -29,11 +29,15 @@ models.sequelize.sync().then(function() {
   /**
    * Listen on provided port, on all network interfaces.
    */
-  
+  wss.on('connection', function connection(ws) {
+   
+
+    console.log("connection")
+  })
 
    server.listen(port, function() {
     debug('Express server listening on port ' + server.address().port);
-    
+
   });
   server.on('error', onError);
   server.on('listening', onListening);
@@ -105,6 +109,7 @@ function onListening() {
 
 //CHAI MOCHA TEST export
 module.exports = port;
+module.exports = server;
 
 
 

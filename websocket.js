@@ -1,8 +1,11 @@
 const WebSocket = require('ws');
+const server = require('./bin/server')
+
 
 let wss = new WebSocket.Server({ server });
   
- wss.broadcast = function broadcast(data) {
+
+wss.broadcast = function broadcast(data) {
    wss.clients.forEach(function each(client) {
      if (client.readyState === WebSocket.OPEN) {
        client.send(data);
@@ -14,7 +17,7 @@ let wss = new WebSocket.Server({ server });
  wss.on('connection', function connection(ws) {
    
 
-
+  console.log("connection")
    router.get("/", (req, res) => {
      models.Entry.findAll({}).then((dbEntries) => {
         console.log(ws)
@@ -34,4 +37,5 @@ let wss = new WebSocket.Server({ server });
   
  });
 
- module.exports = wss 
+ module.exports = wss
+

@@ -1,8 +1,7 @@
 // dependencies 
 const express = require("express"),
 	bodyParser = require("body-parser"),
-	path = require("path"),
-  wss = require('./bin/server')
+	path = require("path");
 	
 	const app = express()
 	
