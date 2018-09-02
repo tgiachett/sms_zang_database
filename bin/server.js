@@ -1,16 +1,26 @@
-var app = require('../app');
+
 var debug = require('debug')('express-sequelize');
 var http = require('http');
 var models = require('../models');
 bodyParser = require("body-parser")
-const wss = require('../websocket')
 const express = require("express");
 const router  = express.Router()
+//The functions on app.js and server.js have been combined into server.js because of unresolved bug reproduced by trying to export the wss server as a module
+
 /**
  * Get port from environment and store in Express.
  */
-
-
+// dependencies 
+	const path = require("path");
+	const app = express()
+	
+	const db = require("../models"),
+	routes = require("../routes"),
+	users = require("../routes/users"),
+	zang = require("../routes/zang"),
+	api = require("../routes/api");
+	
+const WebSocket = require('ws');
 
 
  var port = normalizePort(process.env.PORT || '8082');
@@ -21,9 +31,10 @@ const router  = express.Router()
    * Create HTTP server.
    */
 
-
+ 
 
    var server = http.createServer(app);
+   let wss = new WebSocket.Server({server});
 
    
     wss.on('connection', function connection(ws) {
@@ -37,7 +48,50 @@ models.sequelize.sync().then(function() {
    */
    
   
+  app.use(bodyParser.urlencoded({ extended: true}));
+app.use(bodyParser.json());
 
+// static directory
+
+
+app.use(express.static("./public"));
+// app.use(express.static(path.join(__dirname, '/views')));
+// const publicPath = path.join(__dirname, '/views');
+
+// setup handlebars
+
+// app.use("/", function (req, res, next) {
+//   models.Entry.findAll({}).then((dbEntries) => {
+//     wss.broadcast(JSON.stringify(dbEntries))
+//     });
+//   next()
+// });
+function globalDataUpdate () {
+  models.Entry.findAll({}).then((dbEntries) => {
+		console.log(wss)
+		wss.broadcast = function broadcast(data) {
+			wss.clients.forEach(function each(client) {
+				if (client.readyState === WebSocket.OPEN) {
+					client.send(data);
+				}
+			});
+		};
+		wss.broadcast(JSON.stringify(dbEntries))
+		
+		
+	
+	});
+}
+
+app.use("/", routes);
+app.use("/api", api);
+app.use("/users", users);
+app.use('/zang', function (req, res, next) {
+	globalDataUpdate()
+	
+  next()
+})
+app.use("/zang", zang);
    server.listen(port, function() {
     console.log('Express server listening on port ' + server.address().port);
 
@@ -113,7 +167,8 @@ function onListening() {
 //CHAI MOCHA TEST export
 module.exports = {
   port: port,
-  server: server
+  server: server,
+  wss: wss
 }
 
 
