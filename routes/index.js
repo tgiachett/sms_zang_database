@@ -3,7 +3,7 @@ const models  = require("../models");
 const express = require("express");
 const router  = express.Router();
 const sms = require('../controller/sms.js');
-const wss = require('../websocket')
+const wss = require('../bin/server').wss
 
 
 
