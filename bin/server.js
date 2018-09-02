@@ -5,6 +5,11 @@ var models = require('../models');
 bodyParser = require("body-parser")
 const express = require("express");
 const router  = express.Router()
+const server = require('../httpServer').server
+const appSetup = require('../app.js');
+const app = require('../httpServer').app
+const wssMod = require('../websocket')
+const port = require('../httpServer').port
 //The functions on app.js and server.js have been combined into server.js because of unresolved bug reproduced by trying to export the wss server as a module
 
 /**
@@ -12,7 +17,7 @@ const router  = express.Router()
  */
 // dependencies 
 	const path = require("path");
-	const app = express()
+	
 	
 	const db = require("../models"),
 	routes = require("../routes"),
@@ -22,19 +27,8 @@ const router  = express.Router()
 	
 const WebSocket = require('ws');
 
+wss = wssMod.server(server)
 
- var port = normalizePort(process.env.PORT || '8082');
- 
-
- app.set('port', port);
-  /**
-   * Create HTTP server.
-   */
-
- 
-
-   var server = http.createServer(app);
-   let wss = new WebSocket.Server({server});
 
    
     wss.on('connection', function connection(ws) {
@@ -48,54 +42,12 @@ models.sequelize.sync().then(function() {
    */
    
   
-  app.use(bodyParser.urlencoded({ extended: true}));
-app.use(bodyParser.json());
 
-// static directory
-
-
-app.use(express.static("./public"));
-// app.use(express.static(path.join(__dirname, '/views')));
-// const publicPath = path.join(__dirname, '/views');
-
-// setup handlebars
-
-// app.use("/", function (req, res, next) {
-//   models.Entry.findAll({}).then((dbEntries) => {
-//     wss.broadcast(JSON.stringify(dbEntries))
-//     });
-//   next()
-// });
-function globalDataUpdate () {
-  models.Entry.findAll({}).then((dbEntries) => {
-		console.log(wss)
-		wss.broadcast = function broadcast(data) {
-			wss.clients.forEach(function each(client) {
-				if (client.readyState === WebSocket.OPEN) {
-					client.send(data);
-				}
-			});
-		};
-		wss.broadcast(JSON.stringify(dbEntries))
-		
-		
-	
-	});
-}
-
-app.use("/", routes);
-app.use("/api", api);
-app.use("/users", users);
-app.use('/zang', function (req, res, next) {
-	globalDataUpdate()
-	
-  next()
-})
-app.use("/zang", zang);
    server.listen(port, function() {
     console.log('Express server listening on port ' + server.address().port);
 
   });
+  app.use(appSetup)
   server.on('error', onError);
   server.on('listening', onListening);
 
@@ -108,21 +60,7 @@ app.use("/zang", zang);
  * Normalize a port into a number, string, or false.
  */
 
-function normalizePort(val) {
-  var port = parseInt(val, 10);
 
-  if (isNaN(port)) {
-    // named pipe
-    return val;
-  }
-
-  if (port >= 0) {
-    // port number
-    return port;
-  }
-
-  return false;
-}
 
 /**
  * Event listener for HTTP server "error" event.

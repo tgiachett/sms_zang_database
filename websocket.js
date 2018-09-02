@@ -1,8 +1,9 @@
 const WebSocket = require('ws');
+const server = require('./httpServer');
 
+let wss = {}
 
-
-let wss = new WebSocket.Server({port: 8081});
+wss.server = (server) => new WebSocket.Server({ server});
 
 
 
